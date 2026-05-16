@@ -1,0 +1,876 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 4/19/2023 1:23:47 PM -->
+<?twinfox name='CreatedBy' value='Charles Hoffman, CPA'?>
+<?twinfox name='CreationDateTime' value='4/19/2023 1:23:47 PM'?>
+<schema
+  xmlns='http://www.w3.org/2001/XMLSchema'
+  xmlns:xbrli='http://www.xbrl.org/2003/instance'
+  xmlns:link='http://www.xbrl.org/2003/linkbase'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  xmlns:elr='https://github.com/seattlemethod/aasb1060/dm/elr'
+  xmlns:generic='http://xbrl.org/2008/generic'
+  targetNamespace='https://github.com/seattlemethod/aasb1060/dm/elr'
+  elementFormDefault='qualified'
+  attributeFormDefault='unqualified'>
+  <annotation>
+    <appinfo>
+
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/StatementOfFinancialPositionClassified'
+                 id='StatementOfFinancialPositionClassified'>
+                 <link:definition>Statement of Financial Position Classified</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/StatementOfIncomeByFunction'
+                 id='StatementOfIncomeByFunction'>
+                 <link:definition>Statement of Income by Function</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/StatementOfIncomeSummarized'
+                 id='StatementOfIncomeSummarized'>
+                 <link:definition>Statement of Income Summarized</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/StatementOfChangesInEquity'
+                 id='StatementOfChangesInEquity'>
+                 <link:definition>Statement of Changes in Equity</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/ReportInformation'
+                 id='ReportInformation'>
+                 <link:definition>Report Information</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/ReportingEntityInformation'
+                 id='ReportingEntityInformation'>
+                 <link:definition>Reporting Entity Information</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/NetAssetsRollUp'
+                 id='NetAssetsRollUp'>
+                 <link:definition>Net Assets Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/EquityRollUp'
+                 id='EquityRollUp'>
+                 <link:definition>Equity Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/NetAssetsLiquidityRollUp'
+                 id='NetAssetsLiquidityRollUp'>
+                 <link:definition>Net Assets (Liquidity basis) Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/AssetsRollUp'
+                 id='AssetsRollUp'>
+                 <link:definition>Assets Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/LiabilitiesAndEquityRollUp'
+                 id='LiabilitiesAndEquityRollUp'>
+                 <link:definition>Liabilities and Equity Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/StatementOfIncomeByNature'
+                 id='StatementOfIncomeByNature'>
+                 <link:definition>Statement of Income by Nature</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/BreakdownOfProfitLossSet'
+                 id='BreakdownOfProfitLossSet'>
+                 <link:definition>Breakdown of Profit (Loss) Set</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/StatementOfOtherComprehensiveIncome'
+                 id='StatementOfOtherComprehensiveIncome'>
+                 <link:definition>Statement of Other Comprehensive Income Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/BreakdownOfOtherComprehensiveIncomeLossSet'
+                 id='BreakdownOfOtherComprehensiveIncomeLossSet'>
+                 <link:definition>Breakdown of Comprehensive Income (Loss) Set</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp'
+                 id='NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp'>
+                 <link:definition>Net Increase (Decrease) in Cash and Cash Equivalents (Direct Method) Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/CashAndCashEquivalentsRollForward'
+                 id='CashAndCashEquivalentsRollForward'>
+                 <link:definition>Cash And Cash Equivalents Roll Forward</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/StatementOfCashFlowsDirectMethod'
+                 id='StatementOfCashFlowsDirectMethod'>
+                 <link:definition>Statement of Cash Flows Direct Method</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/RetrospectiveRestatementOfEquityAdjustment'
+                 id='RetrospectiveRestatementOfEquityAdjustment'>
+                 <link:definition>Retrospective Restatement of Equity Adjustment</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/NatureOfOperationsTextBlock'
+                 id='NatureOfOperationsTextBlock'>
+                 <link:definition>Nature of Operations Text Block</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/BasisOfPresentationTextBlock'
+                 id='BasisOfPresentationTextBlock'>
+                 <link:definition>Basis of Presentation Text Block</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/JudgementsOfManagementTextBlock'
+                 id='JudgementsOfManagementTextBlock'>
+                 <link:definition>Judgements of Management Text Block</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/CashAndCashEquivalentsRollUp'
+                 id='CashAndCashEquivalentsRollUp'>
+                 <link:definition>Cash and Cash Equivalents Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/TradeAndOtherCurrentReceivablesRollUp'
+                 id='TradeAndOtherCurrentReceivablesRollUp'>
+                 <link:definition>Trade and Other Current Receivables Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/OtherCurrentFinancialAssetsRollUp'
+                 id='OtherCurrentFinancialAssetsRollUp'>
+                 <link:definition>Other Current Financial Assets Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/CurrentInventoriesRollUp'
+                 id='CurrentInventoriesRollUp'>
+                 <link:definition>Current Inventories Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/CurrentBiologicalAssetsRollUp'
+                 id='CurrentBiologicalAssetsRollUp'>
+                 <link:definition>Current Biological Assets Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/OtherMiscellaneousCurrentAssetsRollUp'
+                 id='OtherMiscellaneousCurrentAssetsRollUp'>
+                 <link:definition>Other Miscellaneous Current Assets Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/AssetsOrDisposalGroupsClassifiedAsHeldForSaleRollUp'
+                 id='AssetsOrDisposalGroupsClassifiedAsHeldForSaleRollUp'>
+                 <link:definition>Assets or Disposal Groups Classified as Held for Sale Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/TradeAndOtherNoncurrentReceivablesRollUp'
+                 id='TradeAndOtherNoncurrentReceivablesRollUp'>
+                 <link:definition>Trade and Other Non-current Receivables Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/OtherNoncurrentFinancialAssetsRollUp'
+                 id='OtherNoncurrentFinancialAssetsRollUp'>
+                 <link:definition>Other Non-current Financial Assets Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/NoncurrentInventoriesRollUp'
+                 id='NoncurrentInventoriesRollUp'>
+                 <link:definition>Non-current Inventories Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/PropertyPlantAndEquipmentNetRollUp'
+                 id='PropertyPlantAndEquipmentNetRollUp'>
+                 <link:definition>Property, Plant, and Equipment, Net Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/InvestmentPropertyRollUp'
+                 id='InvestmentPropertyRollUp'>
+                 <link:definition>Investment Property Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/IntangibleAssetsOtherThanGoodwillRollUp'
+                 id='IntangibleAssetsOtherThanGoodwillRollUp'>
+                 <link:definition>Intangible Assets Other than Goodwill Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/GoodwillRollUp'
+                 id='GoodwillRollUp'>
+                 <link:definition>Goodwill Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/NoncurrentBiologicalAssetsRollUp'
+                 id='NoncurrentBiologicalAssetsRollUp'>
+                 <link:definition>Non-current Biological Assets Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/InvestmentsInAssociatesRollUp'
+                 id='InvestmentsInAssociatesRollUp'>
+                 <link:definition>Investments in Associates Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/InvestmentsInJointVenturesRollUp'
+                 id='InvestmentsInJointVenturesRollUp'>
+                 <link:definition>Investments in Joint Ventures Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/DeferredTaxAssetsAndLiabilitiesRollUp'
+                 id='DeferredTaxAssetsAndLiabilitiesRollUp'>
+                 <link:definition>Deferred Tax Assets and Liabilities Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/OtherMiscellaneousNoncurrentAssetsRollUp'
+                 id='OtherMiscellaneousNoncurrentAssetsRollUp'>
+                 <link:definition>Other Miscellaneous Non-current Assets Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/TradeAndOtherReceivablesRollUp'
+                 id='TradeAndOtherReceivablesRollUp'>
+                 <link:definition>Trade and Other Receivables Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/OtherFinancialAssetsRollUp'
+                 id='OtherFinancialAssetsRollUp'>
+                 <link:definition>Other Financial Assets Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/InventoriesRollUp'
+                 id='InventoriesRollUp'>
+                 <link:definition>Inventories Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/BiologicalAssetsRollUp'
+                 id='BiologicalAssetsRollUp'>
+                 <link:definition>Biological Assets Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/OtherMiscellaneousAssetsRollUp'
+                 id='OtherMiscellaneousAssetsRollUp'>
+                 <link:definition>Other Miscellaneous Assets Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/TradeAndOtherCurrentPayablesRollUp'
+                 id='TradeAndOtherCurrentPayablesRollUp'>
+                 <link:definition>Trade and Other Current Payables Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/OtherCurrentFinancialLiabilitiesRollUp'
+                 id='OtherCurrentFinancialLiabilitiesRollUp'>
+                 <link:definition>Other Current Financial Liabilities Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/CurrentProvisionsRollUp'
+                 id='CurrentProvisionsRollUp'>
+                 <link:definition>Current Provisions Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/OtherMiscellaneousCurrentLiabilitiesRollUp'
+                 id='OtherMiscellaneousCurrentLiabilitiesRollUp'>
+                 <link:definition>Other Miscellaneous Current Liabilities Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/LiabilitiesOrDisposalGroupsClassifiedAsHeldForSaleRollUp'
+                 id='LiabilitiesOrDisposalGroupsClassifiedAsHeldForSaleRollUp'>
+                 <link:definition>Liabilities or Disposal Groups Classified as Held for Sale Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/TradeAndOtherNoncurrentPayablesRollUp'
+                 id='TradeAndOtherNoncurrentPayablesRollUp'>
+                 <link:definition>Trade and Other Non-current Payables Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/NoncurrentProvisionsRollUp'
+                 id='NoncurrentProvisionsRollUp'>
+                 <link:definition>Non-current Provisions Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/OtherNoncurrentFinancialLiabilitiesRollUp'
+                 id='OtherNoncurrentFinancialLiabilitiesRollUp'>
+                 <link:definition>Other Non-current Financial Liabilities Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/OtherMiscellaneousNoncurrentLiabilitiesRollUp'
+                 id='OtherMiscellaneousNoncurrentLiabilitiesRollUp'>
+                 <link:definition>Other Miscellaneous Non-current Liabilities Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/TradeAndOtherPayablesRollUp'
+                 id='TradeAndOtherPayablesRollUp'>
+                 <link:definition>Trade and Other Payables Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/OtherFinancialLiabilitiesRollUp'
+                 id='OtherFinancialLiabilitiesRollUp'>
+                 <link:definition>Other Financial Liabilities Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/ProvisionsRollUp'
+                 id='ProvisionsRollUp'>
+                 <link:definition>Provisions Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/OtherMiscellaneousLiabilitiesRollUp'
+                 id='OtherMiscellaneousLiabilitiesRollUp'>
+                 <link:definition>Other Miscellaneous Liabilities Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/RevenueRollUp'
+                 id='RevenueRollUp'>
+                 <link:definition>Revenue Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/CostOfSalesRollUp'
+                 id='CostOfSalesRollUp'>
+                 <link:definition>Cost of Sales Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/OtherOperatingIncomeRollUp'
+                 id='OtherOperatingIncomeRollUp'>
+                 <link:definition>Other Operating Income Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/OperatingExpensesExclusingCostOfSalesRollUp'
+                 id='OperatingExpensesExclusingCostOfSalesRollUp'>
+                 <link:definition>Operating Expenses Exclusing Cost of Sales Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/OtherNonoperatingIncomeExpensesNotIncludingFinanceCostsOrTaxExpenseRollUp'
+                 id='OtherNonoperatingIncomeExpensesNotIncludingFinanceCostsOrTaxExpenseRollUp'>
+                 <link:definition>Other Non-operating Income (Expenses) Not Including Finance Costs or Tax Expense Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/FinanceCostsIncomeRollUp'
+                 id='FinanceCostsIncomeRollUp'>
+                 <link:definition>Finance Costs (Income) Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/OperatingExpensesRollUp'
+                 id='OperatingExpensesRollUp'>
+                 <link:definition>Operating Expenses Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/TaxExpenseIncomeRollUp'
+                 id='TaxExpenseIncomeRollUp'>
+                 <link:definition>Tax Expense (Income) Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/PropertyPlantAndEquipmentRollForward'
+                 id='PropertyPlantAndEquipmentRollForward'>
+                 <link:definition>Property, Plant, and Equipment Roll Forward</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/InvestmentPropertyRollForward'
+                 id='InvestmentPropertyRollForward'>
+                 <link:definition>Investment Property Roll Forward</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/IntangibleAssetsOtherThanGoodwillRollForward'
+                 id='IntangibleAssetsOtherThanGoodwillRollForward'>
+                 <link:definition>Intangible Assets Other than Goodwill Roll Forward</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/GoodwillRollForward'
+                 id='GoodwillRollForward'>
+                 <link:definition>Goodwill Roll Forward</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/BiologicalAssetsFairValueModelRollForward'
+                 id='BiologicalAssetsFairValueModelRollForward'>
+                 <link:definition>Biological Assets (Fair Value Model) Roll Forward</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/BiologicalAssetsCostModelRollForward'
+                 id='BiologicalAssetsCostModelRollForward'>
+                 <link:definition>Biological Assets (Cost Model) Roll Forward</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/ProvisionsRollForward'
+                 id='ProvisionsRollForward'>
+                 <link:definition>Provisions Roll Forward</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/ProvisionsBreakdownRollUp'
+                 id='ProvisionsBreakdownRollUp'>
+                 <link:definition>Provisions Breakdown Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/FutureLeasePaymentsLesseeRollUp'
+                 id='FutureLeasePaymentsLesseeRollUp'>
+                 <link:definition>Future Lease Payments Lessee Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/FutureLeasePaymentsReceivableUnderNoncancellableOperatingLeasesRollUp'
+                 id='FutureLeasePaymentsReceivableUnderNoncancellableOperatingLeasesRollUp'>
+                 <link:definition>Future Lease Payments Receivable Under Non-cancellable Operating Leases Roll Up</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/SharebasedPaymentArrangementGeneralInformationSet'
+                 id='SharebasedPaymentArrangementGeneralInformationSet'>
+                 <link:definition>Share-based Payment Arrangement General Information Set</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/NumberOfShareOptionsOutstandingRollForward'
+                 id='NumberOfShareOptionsOutstandingRollForward'>
+                 <link:definition>Number of Share Options Outstanding Roll Forward</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/WeightedAverageExercisePricesOfShareOptionsRollForwardInfo'
+                 id='WeightedAverageExercisePricesOfShareOptionsRollForwardInfo'>
+                 <link:definition>Weighted Average Exercise Prices of Share Options Roll Forward Info</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/SharebasedPaymentsExercisableSet'
+                 id='SharebasedPaymentsExercisableSet'>
+                 <link:definition>Share-based Payments Exercisable Set</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/PropertyPlantAndEquipmentPoliciesSet'
+                 id='PropertyPlantAndEquipmentPoliciesSet'>
+                 <link:definition>Property, Plant, and Equipment Policies Set</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/StatementOfFinancialPositionLiquidity'
+                 id='StatementOfFinancialPositionLiquidity'>
+                 <link:definition>Statement of Financial Position Liquidity</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/StatementOfFinancialPositionClassifiedAlternative'
+                 id='StatementOfFinancialPositionClassifiedAlternative'>
+                 <link:definition>Statement of Financial Position Classified (Alternative)</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/BiologicalAssetsPolicies'
+                 id='BiologicalAssetsPolicies'>
+                 <link:definition>Biological Assets Policies</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/CashAndCashEquivalentsPolicies'
+                 id='CashAndCashEquivalentsPolicies'>
+                 <link:definition>Cash and Cash Equivalents Policies</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/EquityPolicies'
+                 id='EquityPolicies'>
+                 <link:definition>Equity Policies</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/GoodwillPolicies'
+                 id='GoodwillPolicies'>
+                 <link:definition>Goodwill Policies</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/IntangibleAssetsOtherThanGoodwillPolicies'
+                 id='IntangibleAssetsOtherThanGoodwillPolicies'>
+                 <link:definition>Intangible Assets Other than Goodwill Policies</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/InvestmentPropertyPolicies'
+                 id='InvestmentPropertyPolicies'>
+                 <link:definition>Investment Property Policies</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/PropertyPlantAndEquipmentPolicies'
+                 id='PropertyPlantAndEquipmentPolicies'>
+                 <link:definition>Property, Plant, and Equipment Policies</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/ProvisionsPolicies'
+                 id='ProvisionsPolicies'>
+                 <link:definition>Provisions Policies</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/RevenueRecognitionPolicies'
+                 id='RevenueRecognitionPolicies'>
+                 <link:definition>Revenue Recognition Policies</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/TradeAndOtherPayablesPolicies'
+                 id='TradeAndOtherPayablesPolicies'>
+                 <link:definition>Trade and Other Payables Policies</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+         <link:roleType
+           roleURI = 'https://github.com/seattlemethod/aasb1060/dm/elr/role/DisclosureMechanics/TradeAndOtherReceivablesPolicies'
+                 id='TradeAndOtherReceivablesPolicies'>
+                 <link:definition>Trade and Other Receivables Policies</link:definition>
+                 <link:usedOn>link:presentationLink</link:usedOn>
+                 <link:usedOn>link:calculationLink</link:usedOn>
+                 <link:usedOn>link:definitionLink</link:usedOn>
+                 <link:usedOn>generic:link</link:usedOn>
+               </link:roleType>
+    </appinfo>
+  </annotation>
+  <import namespace='http://www.xbrl.org/2003/instance' schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' />
+</schema>
