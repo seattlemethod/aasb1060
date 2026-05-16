@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Taxonomy Reference Links linkbase based on XBRL standard Version 2.1.
+Created by UBmatrix Taxonomy Designer 3.0.2.2347 (2007-12-17 12:39).  
+Contact www.ubmatrix.com
+Copyright (c) 2002-2023 UBmatrix inc., All Rights Reserved
+Produced on 2023-03-02 10:16:56
+-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fac="https://github.com/seattlemethod/aasb1060/fac" xmlns:ref="http://www.xbrl.org/2004/ref" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd https://github.com/seattlemethod/aasb1060/fac fac.xsd http://www.xbrl.org/2004/ref http://www.xbrl.org/2004/ref-2004-08-10.xsd">
+  <referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_Assets" xlink:label="fac_Assets" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="fac_Assets" xlink:to="fac_Assets_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_Assets_ref">
+      <ref:URI>http://www.xbrlsite.com/mastering/Part02_Chapter05.L_FundamentalAccountingConceptAndReportingStyles.pdf</ref:URI>
+    </reference>
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_Assets_ref">
+      <ref:URI>https://fasb.org/Page/document?pdf=Concepts_Statement_8-Chapter_4-Elements.pdf</ref:URI>
+      <ref:Publisher>FASB</ref:Publisher>
+      <ref:Name>SFAC</ref:Name>
+      <ref:Number>8</ref:Number>
+      <ref:Chapter>4</ref:Chapter>
+    </reference>
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_BalanceSheetClassifiedHypercube" xlink:label="fac_BalanceSheetClassifiedHypercube" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="fac_BalanceSheetClassifiedHypercube" xlink:to="fac_BalanceSheetClassifiedHypercube_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_BalanceSheetClassifiedHypercube_ref">
+      <ref:URI>https://fasb.org/Page/document?pdf=Concepts_Statement_8-Chapter_4-Elements.pdf</ref:URI>
+      <ref:Publisher>FASB</ref:Publisher>
+      <ref:Name>SFAC</ref:Name>
+      <ref:Number>8</ref:Number>
+    </reference>
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_ComprehensiveIncomeLoss" xlink:label="fac_ComprehensiveIncomeLoss" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="fac_ComprehensiveIncomeLoss" xlink:to="fac_ComprehensiveIncomeLoss_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_ComprehensiveIncomeLoss_ref">
+      <ref:URI>http://www.xbrlsite.com/mastering/Part02_Chapter05.L_FundamentalAccountingConceptAndReportingStyles.pdf</ref:URI>
+    </reference>
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_ComprehensiveIncomeLoss_ref">
+      <ref:URI>https://fasb.org/Page/document?pdf=Concepts_Statement_8-Chapter_4-Elements.pdf</ref:URI>
+    </reference>
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_CurrentAssets" xlink:label="fac_CurrentAssets" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="fac_CurrentAssets" xlink:to="fac_CurrentAssets_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_CurrentAssets_ref">
+      <ref:URI>http://www.xbrlsite.com/mastering/Part02_Chapter05.L_FundamentalAccountingConceptAndReportingStyles.pdf</ref:URI>
+    </reference>
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_CurrentLiabilities" xlink:label="fac_CurrentLiabilities" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="fac_CurrentLiabilities" xlink:to="fac_CurrentLiabilities_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_CurrentLiabilities_ref">
+      <ref:URI>http://www.xbrlsite.com/mastering/Part02_Chapter05.L_FundamentalAccountingConceptAndReportingStyles.pdf</ref:URI>
+    </reference>
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_Equity" xlink:label="fac_Equity" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="fac_Equity" xlink:to="fac_Equity_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_Equity_ref">
+      <ref:URI>http://www.xbrlsite.com/mastering/Part02_Chapter05.L_FundamentalAccountingConceptAndReportingStyles.pdf</ref:URI>
+    </reference>
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_Equity_ref">
+      <ref:URI>https://fasb.org/Page/document?pdf=Concepts_Statement_8-Chapter_4-Elements.pdf</ref:URI>
+    </reference>
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_ExpensesAndLosses" xlink:label="fac_ExpensesAndLosses" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="fac_ExpensesAndLosses" xlink:to="fac_ExpensesAndLosses_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_ExpensesAndLosses_ref">
+      <ref:URI>http://www.xbrlsite.com/mastering/Part02_Chapter05.L_FundamentalAccountingConceptAndReportingStyles.pdf</ref:URI>
+    </reference>
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_GrossProfitLoss" xlink:label="fac_GrossProfitLoss" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="fac_GrossProfitLoss" xlink:to="fac_GrossProfitLoss_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_GrossProfitLoss_ref">
+      <ref:URI>http://www.xbrlsite.com/mastering/Part02_Chapter05.L_FundamentalAccountingConceptAndReportingStyles.pdf</ref:URI>
+    </reference>
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_GrossProfitLoss_ref">
+      <ref:URI>https://fasb.org/Page/document?pdf=Concepts_Statement_8-Chapter_4-Elements.pdf</ref:URI>
+    </reference>
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_IncomeFromNormalActivitiesOfEntity" xlink:label="fac_IncomeFromNormalActivitiesOfEntity" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="fac_IncomeFromNormalActivitiesOfEntity" xlink:to="fac_IncomeFromNormalActivitiesOfEntity_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_IncomeFromNormalActivitiesOfEntity_ref">
+      <ref:URI>http://www.xbrlsite.com/mastering/Part02_Chapter05.L_FundamentalAccountingConceptAndReportin</ref:URI>
+    </reference>
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_IncomeFromNormalActivitiesOfEntity_ref">
+      <ref:URI>https://fasb.org/Page/document?pdf=Concepts_Statement_8-Chapter_4-Elements.pdf</ref:URI>
+    </reference>
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_IncomeFromPeripheralOrIncidentalTransactionsOfEntity" xlink:label="fac_IncomeFromPeripheralOrIncidentalTransactionsOfEntity" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="fac_IncomeFromPeripheralOrIncidentalTransactionsOfEntity" xlink:to="fac_IncomeFromPeripheralOrIncidentalTransactionsOfEntity_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_IncomeFromPeripheralOrIncidentalTransactionsOfEntity_ref">
+      <ref:URI>http://www.xbrlsite.com/mastering/Part02_Chapter05.L_FundamentalAccountingConceptAndReportin</ref:URI>
+    </reference>
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_IncomeFromPeripheralOrIncidentalTransactionsOfEntity_ref">
+      <ref:URI>https://fasb.org/Page/document?pdf=Concepts_Statement_8-Chapter_4-Elements.pdf</ref:URI>
+    </reference>
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_IncomeStatementHypercube" xlink:label="fac_IncomeStatementHypercube" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="fac_IncomeStatementHypercube" xlink:to="fac_IncomeStatementHypercube_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_IncomeStatementHypercube_ref">
+      <ref:Publisher>FASB</ref:Publisher>
+      <ref:Name>SFAC</ref:Name>
+      <ref:Number>8</ref:Number>
+      <ref:URI>https://fasb.org/Page/document?pdf=Concepts_Statement_8-Chapter_4-Elements.pdf</ref:URI>
+    </reference>
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_IncomeStatementMultiStepHypercube" xlink:label="fac_IncomeStatementMultiStepHypercube" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="fac_IncomeStatementMultiStepHypercube" xlink:to="fac_IncomeStatementMultiStepHypercube_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_IncomeStatementMultiStepHypercube_ref">
+      <ref:URI>https://fasb.org/Page/ShowPdf?path=Concepts_Statement_8-Chapter_7-Presentation.pdf</ref:URI>
+      <ref:Publisher>FASB</ref:Publisher>
+      <ref:Name>SFAC</ref:Name>
+      <ref:Number>8</ref:Number>
+      <ref:Chapter>7</ref:Chapter>
+    </reference>
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_LiabilitiesAndEquity" xlink:label="fac_LiabilitiesAndEquity" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="fac_LiabilitiesAndEquity" xlink:to="fac_LiabilitiesAndEquity_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_LiabilitiesAndEquity_ref">
+      <ref:URI>http://www.xbrlsite.com/mastering/Part02_Chapter05.L_FundamentalAccountingConceptAndReportingStyles.pdf</ref:URI>
+    </reference>
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_Liabilities" xlink:label="fac_Liabilities" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="fac_Liabilities" xlink:to="fac_Liabilities_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_Liabilities_ref">
+      <ref:URI>http://www.xbrlsite.com/mastering/Part02_Chapter05.L_FundamentalAccountingConceptAndReportingStyles.pdf</ref:URI>
+    </reference>
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_Liabilities_ref">
+      <ref:URI>https://fasb.org/Page/document?pdf=Concepts_Statement_8-Chapter_4-Elements.pdf</ref:URI>
+    </reference>
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_NoncurrentAssets" xlink:label="fac_NoncurrentAssets" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="fac_NoncurrentAssets" xlink:to="fac_NoncurrentAssets_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_NoncurrentAssets_ref">
+      <ref:URI>http://www.xbrlsite.com/mastering/Part02_Chapter05.L_FundamentalAccountingConceptAndReportingStyles.pdf</ref:URI>
+    </reference>
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_NoncurrentLiabilities" xlink:label="fac_NoncurrentLiabilities" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="fac_NoncurrentLiabilities" xlink:to="fac_NoncurrentLiabilities_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_NoncurrentLiabilities_ref">
+      <ref:URI>http://www.xbrlsite.com/mastering/Part02_Chapter05.L_FundamentalAccountingConceptAndReportingStyles.pdf</ref:URI>
+    </reference>
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_ProfitLoss" xlink:label="fac_ProfitLoss" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="fac_ProfitLoss" xlink:to="fac_ProfitLoss_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_ProfitLoss_ref">
+      <ref:URI>http://www.xbrlsite.com/mastering/Part02_Chapter05.L_FundamentalAccountingConceptAndReportingStyles.pdf</ref:URI>
+    </reference>
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_ProfitLoss_ref">
+      <ref:URI>https://fasb.org/Page/document?pdf=Concepts_Statement_8-Chapter_4-Elements.pdf</ref:URI>
+    </reference>
+    <loc xlink:type="locator" xlink:href="fac.xsd#fac_RevenueAndGains" xlink:label="fac_RevenueAndGains" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="fac_RevenueAndGains" xlink:to="fac_RevenueAndGains_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="fac_RevenueAndGains_ref">
+      <ref:URI>http://www.xbrlsite.com/mastering/Part02_Chapter05.L_FundamentalAccountingConceptAndReportingStyles.pdf</ref:URI>
+    </reference>
+  </referenceLink>
+</linkbase>
