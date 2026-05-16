@@ -1,0 +1,864 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 4/11/2023 7:34:49 AM -->
+<?twinfox name='CreatedBy' value='Charles Hoffman, CPA'?>
+<?twinfox name='CreationDateTime' value='4/11/2023 7:34:49 AM'?>
+<linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ref='http://www.xbrl.org/2004/ref' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.xbrl.org/2004/ref http://www.xbrl.org/2004/ref-2004-08-10.xsd'>
+  <referenceLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AssetsOrDisposalGroupsClassifiedAsHeldForSaleRollUp' xlink:label='disclosures_AssetsOrDisposalGroupsClassifiedAsHeldForSaleRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_AssetsOrDisposalGroupsClassifiedAsHeldForSaleRollUp' xlink:to='disclosures_AssetsOrDisposalGroupsClassifiedAsHeldForSaleRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_AssetsOrDisposalGroupsClassifiedAsHeldForSaleRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_AssetsRollUp' xlink:label='disclosures_AssetsRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_AssetsRollUp' xlink:to='disclosures_AssetsRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_AssetsRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>34</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-35.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BasisOfPresentationTextBlock' xlink:label='disclosures_BasisOfPresentationTextBlock' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_BasisOfPresentationTextBlock' xlink:to='disclosures_BasisOfPresentationTextBlock_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_BasisOfPresentationTextBlock_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>91</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-91.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BiologicalAssetsCostModelRollForward' xlink:label='disclosures_BiologicalAssetsCostModelRollForward' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_BiologicalAssetsCostModelRollForward' xlink:to='disclosures_BiologicalAssetsCostModelRollForward_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_BiologicalAssetsCostModelRollForward_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>204</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-204.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BiologicalAssetsFairValueModelRollForward' xlink:label='disclosures_BiologicalAssetsFairValueModelRollForward' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_BiologicalAssetsFairValueModelRollForward' xlink:to='disclosures_BiologicalAssetsFairValueModelRollForward_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_BiologicalAssetsFairValueModelRollForward_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>204</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-204.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BiologicalAssetsPolicies' xlink:label='disclosures_BiologicalAssetsPolicies' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_BiologicalAssetsPolicies' xlink:to='disclosures_BiologicalAssetsPolicies_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_BiologicalAssetsPolicies_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>95</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-95.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BiologicalAssetsRollUp' xlink:label='disclosures_BiologicalAssetsRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_BiologicalAssetsRollUp' xlink:to='disclosures_BiologicalAssetsRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_BiologicalAssetsRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BreakdownOfOtherComprehensiveIncomeLossSet' xlink:label='disclosures_BreakdownOfOtherComprehensiveIncomeLossSet' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_BreakdownOfOtherComprehensiveIncomeLossSet' xlink:to='disclosures_BreakdownOfOtherComprehensiveIncomeLossSet_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_BreakdownOfOtherComprehensiveIncomeLossSet_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>53</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-53.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BreakdownOfProfitLossSet' xlink:label='disclosures_BreakdownOfProfitLossSet' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_BreakdownOfProfitLossSet' xlink:to='disclosures_BreakdownOfProfitLossSet_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_BreakdownOfProfitLossSet_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>53</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-53.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CashAndCashEquivalentsPolicies' xlink:label='disclosures_CashAndCashEquivalentsPolicies' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_CashAndCashEquivalentsPolicies' xlink:to='disclosures_CashAndCashEquivalentsPolicies_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_CashAndCashEquivalentsPolicies_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>95</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-95.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CashAndCashEquivalentsRollForward' xlink:label='disclosures_CashAndCashEquivalentsRollForward' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_CashAndCashEquivalentsRollForward' xlink:to='disclosures_CashAndCashEquivalentsRollForward_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_CashAndCashEquivalentsRollForward_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>65</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-64.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CashAndCashEquivalentsRollUp' xlink:label='disclosures_CashAndCashEquivalentsRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_CashAndCashEquivalentsRollUp' xlink:to='disclosures_CashAndCashEquivalentsRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_CashAndCashEquivalentsRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CostOfSalesRollUp' xlink:label='disclosures_CostOfSalesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_CostOfSalesRollUp' xlink:to='disclosures_CostOfSalesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_CostOfSalesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CurrentBiologicalAssetsRollUp' xlink:label='disclosures_CurrentBiologicalAssetsRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_CurrentBiologicalAssetsRollUp' xlink:to='disclosures_CurrentBiologicalAssetsRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_CurrentBiologicalAssetsRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CurrentInventoriesRollUp' xlink:label='disclosures_CurrentInventoriesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_CurrentInventoriesRollUp' xlink:to='disclosures_CurrentInventoriesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_CurrentInventoriesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_CurrentProvisionsRollUp' xlink:label='disclosures_CurrentProvisionsRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_CurrentProvisionsRollUp' xlink:to='disclosures_CurrentProvisionsRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_CurrentProvisionsRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_DeferredTaxAssetsAndLiabilitiesRollUp' xlink:label='disclosures_DeferredTaxAssetsAndLiabilitiesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_DeferredTaxAssetsAndLiabilitiesRollUp' xlink:to='disclosures_DeferredTaxAssetsAndLiabilitiesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_DeferredTaxAssetsAndLiabilitiesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_EquityPolicies' xlink:label='disclosures_EquityPolicies' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_EquityPolicies' xlink:to='disclosures_EquityPolicies_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_EquityPolicies_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>95</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-95.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_EquityRollUp' xlink:label='disclosures_EquityRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_EquityRollUp' xlink:to='disclosures_EquityRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_EquityRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>34</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-34.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FinanceCostsIncomeRollUp' xlink:label='disclosures_FinanceCostsIncomeRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_FinanceCostsIncomeRollUp' xlink:to='disclosures_FinanceCostsIncomeRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_FinanceCostsIncomeRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FutureLeasePaymentsLesseeRollUp' xlink:label='disclosures_FutureLeasePaymentsLesseeRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_FutureLeasePaymentsLesseeRollUp' xlink:to='disclosures_FutureLeasePaymentsLesseeRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_FutureLeasePaymentsLesseeRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>144</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-144.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_FutureLeasePaymentsReceivableUnderNoncancellableOperatingLeasesRollUp' xlink:label='disclosures_FutureLeasePaymentsReceivableUnderNoncancellableOperatingLeasesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_FutureLeasePaymentsReceivableUnderNoncancellableOperatingLeasesRollUp' xlink:to='disclosures_FutureLeasePaymentsReceivableUnderNoncancellableOperatingLeasesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_FutureLeasePaymentsReceivableUnderNoncancellableOperatingLeasesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>148</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-148.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_GoodwillPolicies' xlink:label='disclosures_GoodwillPolicies' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_GoodwillPolicies' xlink:to='disclosures_GoodwillPolicies_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_GoodwillPolicies_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>95</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-95.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_GoodwillRollForward' xlink:label='disclosures_GoodwillRollForward' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_GoodwillRollForward' xlink:to='disclosures_GoodwillRollForward_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_GoodwillRollForward_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>143</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-143.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_GoodwillRollUp' xlink:label='disclosures_GoodwillRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_GoodwillRollUp' xlink:to='disclosures_GoodwillRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_GoodwillRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IntangibleAssetsOtherThanGoodwillPolicies' xlink:label='disclosures_IntangibleAssetsOtherThanGoodwillPolicies' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_IntangibleAssetsOtherThanGoodwillPolicies' xlink:to='disclosures_IntangibleAssetsOtherThanGoodwillPolicies_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_IntangibleAssetsOtherThanGoodwillPolicies_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>95</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-95.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IntangibleAssetsOtherThanGoodwillRollForward' xlink:label='disclosures_IntangibleAssetsOtherThanGoodwillRollForward' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_IntangibleAssetsOtherThanGoodwillRollForward' xlink:to='disclosures_IntangibleAssetsOtherThanGoodwillRollForward_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_IntangibleAssetsOtherThanGoodwillRollForward_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>137</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-137.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_IntangibleAssetsOtherThanGoodwillRollUp' xlink:label='disclosures_IntangibleAssetsOtherThanGoodwillRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_IntangibleAssetsOtherThanGoodwillRollUp' xlink:to='disclosures_IntangibleAssetsOtherThanGoodwillRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_IntangibleAssetsOtherThanGoodwillRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InventoriesRollUp' xlink:label='disclosures_InventoriesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_InventoriesRollUp' xlink:to='disclosures_InventoriesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_InventoriesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InvestmentPropertyPolicies' xlink:label='disclosures_InvestmentPropertyPolicies' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_InvestmentPropertyPolicies' xlink:to='disclosures_InvestmentPropertyPolicies_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_InvestmentPropertyPolicies_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>95</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-95.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InvestmentPropertyRollForward' xlink:label='disclosures_InvestmentPropertyRollForward' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_InvestmentPropertyRollForward' xlink:to='disclosures_InvestmentPropertyRollForward_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_InvestmentPropertyRollForward_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>134</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-134.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InvestmentPropertyRollUp' xlink:label='disclosures_InvestmentPropertyRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_InvestmentPropertyRollUp' xlink:to='disclosures_InvestmentPropertyRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_InvestmentPropertyRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InvestmentsInAssociatesRollUp' xlink:label='disclosures_InvestmentsInAssociatesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_InvestmentsInAssociatesRollUp' xlink:to='disclosures_InvestmentsInAssociatesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_InvestmentsInAssociatesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_InvestmentsInJointVenturesRollUp' xlink:label='disclosures_InvestmentsInJointVenturesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_InvestmentsInJointVenturesRollUp' xlink:to='disclosures_InvestmentsInJointVenturesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_InvestmentsInJointVenturesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_JudgementsOfManagementTextBlock' xlink:label='disclosures_JudgementsOfManagementTextBlock' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_JudgementsOfManagementTextBlock' xlink:to='disclosures_JudgementsOfManagementTextBlock_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_JudgementsOfManagementTextBlock_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>96</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-96.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_LiabilitiesAndEquityRollUp' xlink:label='disclosures_LiabilitiesAndEquityRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_LiabilitiesAndEquityRollUp' xlink:to='disclosures_LiabilitiesAndEquityRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_LiabilitiesAndEquityRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>34</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-35.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_LiabilitiesOrDisposalGroupsClassifiedAsHeldForSaleRollUp' xlink:label='disclosures_LiabilitiesOrDisposalGroupsClassifiedAsHeldForSaleRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_LiabilitiesOrDisposalGroupsClassifiedAsHeldForSaleRollUp' xlink:to='disclosures_LiabilitiesOrDisposalGroupsClassifiedAsHeldForSaleRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_LiabilitiesOrDisposalGroupsClassifiedAsHeldForSaleRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NatureOfOperationsTextBlock' xlink:label='disclosures_NatureOfOperationsTextBlock' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_NatureOfOperationsTextBlock' xlink:to='disclosures_NatureOfOperationsTextBlock_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_NatureOfOperationsTextBlock_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>32</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-32.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NetAssetsLiquidityRollUp' xlink:label='disclosures_NetAssetsLiquidityRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_NetAssetsLiquidityRollUp' xlink:to='disclosures_NetAssetsLiquidityRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_NetAssetsLiquidityRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>37</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-37.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NetAssetsRollUp' xlink:label='disclosures_NetAssetsRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_NetAssetsRollUp' xlink:to='disclosures_NetAssetsRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_NetAssetsRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>34</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-35.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' xlink:label='disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' xlink:to='disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>64</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-64.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NoncurrentBiologicalAssetsRollUp' xlink:label='disclosures_NoncurrentBiologicalAssetsRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_NoncurrentBiologicalAssetsRollUp' xlink:to='disclosures_NoncurrentBiologicalAssetsRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_NoncurrentBiologicalAssetsRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NoncurrentInventoriesRollUp' xlink:label='disclosures_NoncurrentInventoriesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_NoncurrentInventoriesRollUp' xlink:to='disclosures_NoncurrentInventoriesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_NoncurrentInventoriesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NoncurrentProvisionsRollUp' xlink:label='disclosures_NoncurrentProvisionsRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_NoncurrentProvisionsRollUp' xlink:to='disclosures_NoncurrentProvisionsRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_NoncurrentProvisionsRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_NumberOfShareOptionsOutstandingRollForward' xlink:label='disclosures_NumberOfShareOptionsOutstandingRollForward' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_NumberOfShareOptionsOutstandingRollForward' xlink:to='disclosures_NumberOfShareOptionsOutstandingRollForward_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_NumberOfShareOptionsOutstandingRollForward_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>164</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-164.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OperatingExpensesExclusingCostOfSalesRollUp' xlink:label='disclosures_OperatingExpensesExclusingCostOfSalesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_OperatingExpensesExclusingCostOfSalesRollUp' xlink:to='disclosures_OperatingExpensesExclusingCostOfSalesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_OperatingExpensesExclusingCostOfSalesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OperatingExpensesRollUp' xlink:label='disclosures_OperatingExpensesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_OperatingExpensesRollUp' xlink:to='disclosures_OperatingExpensesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_OperatingExpensesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherCurrentFinancialAssetsRollUp' xlink:label='disclosures_OtherCurrentFinancialAssetsRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_OtherCurrentFinancialAssetsRollUp' xlink:to='disclosures_OtherCurrentFinancialAssetsRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_OtherCurrentFinancialAssetsRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherCurrentFinancialLiabilitiesRollUp' xlink:label='disclosures_OtherCurrentFinancialLiabilitiesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_OtherCurrentFinancialLiabilitiesRollUp' xlink:to='disclosures_OtherCurrentFinancialLiabilitiesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_OtherCurrentFinancialLiabilitiesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherFinancialAssetsRollUp' xlink:label='disclosures_OtherFinancialAssetsRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_OtherFinancialAssetsRollUp' xlink:to='disclosures_OtherFinancialAssetsRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_OtherFinancialAssetsRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherFinancialLiabilitiesRollUp' xlink:label='disclosures_OtherFinancialLiabilitiesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_OtherFinancialLiabilitiesRollUp' xlink:to='disclosures_OtherFinancialLiabilitiesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_OtherFinancialLiabilitiesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherMiscellaneousAssetsRollUp' xlink:label='disclosures_OtherMiscellaneousAssetsRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_OtherMiscellaneousAssetsRollUp' xlink:to='disclosures_OtherMiscellaneousAssetsRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_OtherMiscellaneousAssetsRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherMiscellaneousCurrentAssetsRollUp' xlink:label='disclosures_OtherMiscellaneousCurrentAssetsRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_OtherMiscellaneousCurrentAssetsRollUp' xlink:to='disclosures_OtherMiscellaneousCurrentAssetsRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_OtherMiscellaneousCurrentAssetsRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherMiscellaneousCurrentLiabilitiesRollUp' xlink:label='disclosures_OtherMiscellaneousCurrentLiabilitiesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_OtherMiscellaneousCurrentLiabilitiesRollUp' xlink:to='disclosures_OtherMiscellaneousCurrentLiabilitiesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_OtherMiscellaneousCurrentLiabilitiesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherMiscellaneousLiabilitiesRollUp' xlink:label='disclosures_OtherMiscellaneousLiabilitiesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_OtherMiscellaneousLiabilitiesRollUp' xlink:to='disclosures_OtherMiscellaneousLiabilitiesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_OtherMiscellaneousLiabilitiesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherMiscellaneousNoncurrentAssetsRollUp' xlink:label='disclosures_OtherMiscellaneousNoncurrentAssetsRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_OtherMiscellaneousNoncurrentAssetsRollUp' xlink:to='disclosures_OtherMiscellaneousNoncurrentAssetsRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_OtherMiscellaneousNoncurrentAssetsRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherMiscellaneousNoncurrentLiabilitiesRollUp' xlink:label='disclosures_OtherMiscellaneousNoncurrentLiabilitiesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_OtherMiscellaneousNoncurrentLiabilitiesRollUp' xlink:to='disclosures_OtherMiscellaneousNoncurrentLiabilitiesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_OtherMiscellaneousNoncurrentLiabilitiesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherNoncurrentFinancialAssetsRollUp' xlink:label='disclosures_OtherNoncurrentFinancialAssetsRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_OtherNoncurrentFinancialAssetsRollUp' xlink:to='disclosures_OtherNoncurrentFinancialAssetsRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_OtherNoncurrentFinancialAssetsRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherNoncurrentFinancialLiabilitiesRollUp' xlink:label='disclosures_OtherNoncurrentFinancialLiabilitiesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_OtherNoncurrentFinancialLiabilitiesRollUp' xlink:to='disclosures_OtherNoncurrentFinancialLiabilitiesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_OtherNoncurrentFinancialLiabilitiesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherNonoperatingIncomeExpensesNotIncludingFinanceCostsOrTaxExpenseRollUp' xlink:label='disclosures_OtherNonoperatingIncomeExpensesNotIncludingFinanceCostsOrTaxExpenseRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_OtherNonoperatingIncomeExpensesNotIncludingFinanceCostsOrTaxExpenseRollUp' xlink:to='disclosures_OtherNonoperatingIncomeExpensesNotIncludingFinanceCostsOrTaxExpenseRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_OtherNonoperatingIncomeExpensesNotIncludingFinanceCostsOrTaxExpenseRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_OtherOperatingIncomeRollUp' xlink:label='disclosures_OtherOperatingIncomeRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_OtherOperatingIncomeRollUp' xlink:to='disclosures_OtherOperatingIncomeRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_OtherOperatingIncomeRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_PropertyPlantAndEquipmentNetRollUp' xlink:label='disclosures_PropertyPlantAndEquipmentNetRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_PropertyPlantAndEquipmentNetRollUp' xlink:to='disclosures_PropertyPlantAndEquipmentNetRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_PropertyPlantAndEquipmentNetRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_PropertyPlantAndEquipmentPolicies' xlink:label='disclosures_PropertyPlantAndEquipmentPolicies' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_PropertyPlantAndEquipmentPolicies' xlink:to='disclosures_PropertyPlantAndEquipmentPolicies_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_PropertyPlantAndEquipmentPolicies_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>95</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-95.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_PropertyPlantAndEquipmentPoliciesSet' xlink:label='disclosures_PropertyPlantAndEquipmentPoliciesSet' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_PropertyPlantAndEquipmentPoliciesSet' xlink:to='disclosures_PropertyPlantAndEquipmentPoliciesSet_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_PropertyPlantAndEquipmentPoliciesSet_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>134</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-134.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_PropertyPlantAndEquipmentRollForward' xlink:label='disclosures_PropertyPlantAndEquipmentRollForward' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_PropertyPlantAndEquipmentRollForward' xlink:to='disclosures_PropertyPlantAndEquipmentRollForward_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_PropertyPlantAndEquipmentRollForward_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>134</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-134.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ProvisionsBreakdownRollUp' xlink:label='disclosures_ProvisionsBreakdownRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_ProvisionsBreakdownRollUp' xlink:to='disclosures_ProvisionsBreakdownRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_ProvisionsBreakdownRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>35</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-35.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ProvisionsPolicies' xlink:label='disclosures_ProvisionsPolicies' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_ProvisionsPolicies' xlink:to='disclosures_ProvisionsPolicies_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_ProvisionsPolicies_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>95</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-95.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ProvisionsRollForward' xlink:label='disclosures_ProvisionsRollForward' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_ProvisionsRollForward' xlink:to='disclosures_ProvisionsRollForward_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_ProvisionsRollForward_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>153</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-153.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ProvisionsRollUp' xlink:label='disclosures_ProvisionsRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_ProvisionsRollUp' xlink:to='disclosures_ProvisionsRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_ProvisionsRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReportInformation' xlink:label='disclosures_ReportInformation' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_ReportInformation' xlink:to='disclosures_ReportInformation_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_ReportInformation_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>31</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-31.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_ReportingEntityInformation' xlink:label='disclosures_ReportingEntityInformation' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_ReportingEntityInformation' xlink:to='disclosures_ReportingEntityInformation_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_ReportingEntityInformation_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>32</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-32.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_RetrospectiveRestatementOfEquityAdjustment' xlink:label='disclosures_RetrospectiveRestatementOfEquityAdjustment' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_RetrospectiveRestatementOfEquityAdjustment' xlink:to='disclosures_RetrospectiveRestatementOfEquityAdjustment_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_RetrospectiveRestatementOfEquityAdjustment_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>61</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-61.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_RevenueRecognitionPolicies' xlink:label='disclosures_RevenueRecognitionPolicies' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_RevenueRecognitionPolicies' xlink:to='disclosures_RevenueRecognitionPolicies_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_RevenueRecognitionPolicies_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>95</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-95.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_RevenueRollUp' xlink:label='disclosures_RevenueRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_RevenueRollUp' xlink:to='disclosures_RevenueRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_RevenueRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SharebasedPaymentArrangementGeneralInformationSet' xlink:label='disclosures_SharebasedPaymentArrangementGeneralInformationSet' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_SharebasedPaymentArrangementGeneralInformationSet' xlink:to='disclosures_SharebasedPaymentArrangementGeneralInformationSet_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_SharebasedPaymentArrangementGeneralInformationSet_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>164</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-164.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_SharebasedPaymentsExercisableSet' xlink:label='disclosures_SharebasedPaymentsExercisableSet' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_SharebasedPaymentsExercisableSet' xlink:to='disclosures_SharebasedPaymentsExercisableSet_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_SharebasedPaymentsExercisableSet_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>164</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-164.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfCashFlowsDirectMethod' xlink:label='disclosures_StatementOfCashFlowsDirectMethod' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_StatementOfCashFlowsDirectMethod' xlink:to='disclosures_StatementOfCashFlowsDirectMethod_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_StatementOfCashFlowsDirectMethod_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>64</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-64.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfChangesInEquity' xlink:label='disclosures_StatementOfChangesInEquity' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_StatementOfChangesInEquity' xlink:to='disclosures_StatementOfChangesInEquity_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_StatementOfChangesInEquity_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>59</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-59.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfFinancialPositionClassified' xlink:label='disclosures_StatementOfFinancialPositionClassified' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_StatementOfFinancialPositionClassified' xlink:to='disclosures_StatementOfFinancialPositionClassified_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_StatementOfFinancialPositionClassified_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>35</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-35.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfFinancialPositionClassifiedAlternative' xlink:label='disclosures_StatementOfFinancialPositionClassifiedAlternative' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_StatementOfFinancialPositionClassifiedAlternative' xlink:to='disclosures_StatementOfFinancialPositionClassifiedAlternative_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_StatementOfFinancialPositionClassifiedAlternative_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>34</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-35.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfFinancialPositionLiquidity' xlink:label='disclosures_StatementOfFinancialPositionLiquidity' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_StatementOfFinancialPositionLiquidity' xlink:to='disclosures_StatementOfFinancialPositionLiquidity_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_StatementOfFinancialPositionLiquidity_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>37</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-35.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfIncomeByFunction' xlink:label='disclosures_StatementOfIncomeByFunction' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_StatementOfIncomeByFunction' xlink:to='disclosures_StatementOfIncomeByFunction_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_StatementOfIncomeByFunction_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>58</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-58.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfIncomeByNature' xlink:label='disclosures_StatementOfIncomeByNature' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_StatementOfIncomeByNature' xlink:to='disclosures_StatementOfIncomeByNature_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_StatementOfIncomeByNature_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>58</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-58.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfIncomeSummarized' xlink:label='disclosures_StatementOfIncomeSummarized' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_StatementOfIncomeSummarized' xlink:to='disclosures_StatementOfIncomeSummarized_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_StatementOfIncomeSummarized_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph></ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-53.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_StatementOfOtherComprehensiveIncome' xlink:label='disclosures_StatementOfOtherComprehensiveIncome' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_StatementOfOtherComprehensiveIncome' xlink:to='disclosures_StatementOfOtherComprehensiveIncome_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_StatementOfOtherComprehensiveIncome_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>54</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-49.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_TaxExpenseIncomeRollUp' xlink:label='disclosures_TaxExpenseIncomeRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_TaxExpenseIncomeRollUp' xlink:to='disclosures_TaxExpenseIncomeRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_TaxExpenseIncomeRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_TradeAndOtherCurrentPayablesRollUp' xlink:label='disclosures_TradeAndOtherCurrentPayablesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_TradeAndOtherCurrentPayablesRollUp' xlink:to='disclosures_TradeAndOtherCurrentPayablesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_TradeAndOtherCurrentPayablesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_TradeAndOtherCurrentReceivablesRollUp' xlink:label='disclosures_TradeAndOtherCurrentReceivablesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_TradeAndOtherCurrentReceivablesRollUp' xlink:to='disclosures_TradeAndOtherCurrentReceivablesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_TradeAndOtherCurrentReceivablesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_TradeAndOtherNoncurrentPayablesRollUp' xlink:label='disclosures_TradeAndOtherNoncurrentPayablesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_TradeAndOtherNoncurrentPayablesRollUp' xlink:to='disclosures_TradeAndOtherNoncurrentPayablesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_TradeAndOtherNoncurrentPayablesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_TradeAndOtherNoncurrentReceivablesRollUp' xlink:label='disclosures_TradeAndOtherNoncurrentReceivablesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_TradeAndOtherNoncurrentReceivablesRollUp' xlink:to='disclosures_TradeAndOtherNoncurrentReceivablesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_TradeAndOtherNoncurrentReceivablesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_TradeAndOtherPayablesPolicies' xlink:label='disclosures_TradeAndOtherPayablesPolicies' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_TradeAndOtherPayablesPolicies' xlink:to='disclosures_TradeAndOtherPayablesPolicies_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_TradeAndOtherPayablesPolicies_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>95</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-95.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_TradeAndOtherPayablesRollUp' xlink:label='disclosures_TradeAndOtherPayablesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_TradeAndOtherPayablesRollUp' xlink:to='disclosures_TradeAndOtherPayablesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_TradeAndOtherPayablesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_TradeAndOtherReceivablesPolicies' xlink:label='disclosures_TradeAndOtherReceivablesPolicies' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_TradeAndOtherReceivablesPolicies' xlink:to='disclosures_TradeAndOtherReceivablesPolicies_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_TradeAndOtherReceivablesPolicies_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>95</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-95.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_TradeAndOtherReceivablesRollUp' xlink:label='disclosures_TradeAndOtherReceivablesRollUp' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_TradeAndOtherReceivablesRollUp' xlink:to='disclosures_TradeAndOtherReceivablesRollUp_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_TradeAndOtherReceivablesRollUp_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>90</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-90.jpg</ref:URI>
+    </reference>
+ 
+    <loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_WeightedAverageExercisePricesOfShareOptionsRollForwardInfo' xlink:label='disclosures_WeightedAverageExercisePricesOfShareOptionsRollForwardInfo' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='disclosures_WeightedAverageExercisePricesOfShareOptionsRollForwardInfo' xlink:to='disclosures_WeightedAverageExercisePricesOfShareOptionsRollForwardInfo_lbl' />
+    <reference xlink:type='resource' xlink:label='disclosures_WeightedAverageExercisePricesOfShareOptionsRollForwardInfo_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>AASB</ref:Publisher>
+       <ref:Chapter>1060</ref:Chapter>
+       <ref:Paragraph>164</ref:Paragraph>
+       <ref:URI>https://xbrlsite.azurewebsites.net/seattlemethod/platinum/aasb1060/standards/aasb-1060-164.jpg</ref:URI>
+    </reference>
+ 
+  </referenceLink>
+</linkbase>
