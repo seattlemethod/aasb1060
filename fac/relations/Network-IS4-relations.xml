@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by Charles Hoffman, CPA: 7/20/2022 -->
+<linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'><arcroleRef xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" arcroleURI="http://xbrl.org/int/dim/arcrole/all"/>
+<arcroleRef xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"/>
+<roleRef xlink:type='simple' xlink:href='../fac.xsd#IS4' roleURI='https://github.com/seattlemethod/aasb1060/fac/role/IS4' /><presentationLink xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="extended" xlink:role="https://github.com/seattlemethod/aasb1060/fac/role/IS4">
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_IncomeStatementHypercube" xlink:label="fac_IncomeStatementHypercube"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_IncomeStatementLineItems" xlink:label="fac_IncomeStatementLineItems"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_IncomeStatementHypercube" xlink:to="fac_IncomeStatementLineItems" order="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ComprehensiveIncomeRollUp" xlink:label="fac_ComprehensiveIncomeRollUp"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_IncomeStatementLineItems" xlink:to="fac_ComprehensiveIncomeRollUp" order="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_IncomeFromNormalActivitiesOfEntity" xlink:label="fac_IncomeFromNormalActivitiesOfEntity"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_ComprehensiveIncomeRollUp" xlink:to="fac_IncomeFromNormalActivitiesOfEntity" order="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_IncomeFromPeripheralOrIncidentalTransactionsOfEntity" xlink:label="fac_IncomeFromPeripheralOrIncidentalTransactionsOfEntity"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_ComprehensiveIncomeRollUp" xlink:to="fac_IncomeFromPeripheralOrIncidentalTransactionsOfEntity" order="2" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ComprehensiveIncome" xlink:label="fac_ComprehensiveIncome"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_ComprehensiveIncomeRollUp" xlink:to="fac_ComprehensiveIncome" order="3" use="optional"/>
+</presentationLink><calculationLink xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="extended" xlink:role="https://github.com/seattlemethod/aasb1060/fac/role/IS4">
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ComprehensiveIncome" xlink:label="fac_ComprehensiveIncome"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_IncomeFromNormalActivitiesOfEntity" xlink:label="fac_IncomeFromNormalActivitiesOfEntity"/>
+	<calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_ComprehensiveIncome" xlink:to="fac_IncomeFromNormalActivitiesOfEntity" order="1" weight="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_IncomeFromPeripheralOrIncidentalTransactionsOfEntity" xlink:label="fac_IncomeFromPeripheralOrIncidentalTransactionsOfEntity"/>
+	<calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_ComprehensiveIncome" xlink:to="fac_IncomeFromPeripheralOrIncidentalTransactionsOfEntity" order="2" weight="1" use="optional"/>
+</calculationLink><definitionLink xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="extended" xlink:role="https://github.com/seattlemethod/aasb1060/fac/role/IS4">
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_IncomeStatementLineItems" xlink:label="fac_IncomeStatementLineItems"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_IncomeStatementHypercube" xlink:label="fac_IncomeStatementHypercube"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="fac_IncomeStatementLineItems" xlink:to="fac_IncomeStatementHypercube" order="1" use="optional" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xbrldt:contextElement="segment" xbrldt:closed="true"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ComprehensiveIncomeRollUp" xlink:label="fac_ComprehensiveIncomeRollUp"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_IncomeStatementLineItems" xlink:to="fac_ComprehensiveIncomeRollUp" order="2" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_IncomeFromNormalActivitiesOfEntity" xlink:label="fac_IncomeFromNormalActivitiesOfEntity"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_IncomeStatementLineItems" xlink:to="fac_IncomeFromNormalActivitiesOfEntity" order="3" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_IncomeFromPeripheralOrIncidentalTransactionsOfEntity" xlink:label="fac_IncomeFromPeripheralOrIncidentalTransactionsOfEntity"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_IncomeStatementLineItems" xlink:to="fac_IncomeFromPeripheralOrIncidentalTransactionsOfEntity" order="4" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_ComprehensiveIncome" xlink:label="fac_ComprehensiveIncome"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_IncomeStatementLineItems" xlink:to="fac_ComprehensiveIncome" order="5" use="optional"/>
+</definitionLink></linkbase>

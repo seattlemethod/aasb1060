@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by Charles Hoffman, CPA: 3/3/2023 -->
+<linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'><arcroleRef xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"/>
+<arcroleRef xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" arcroleURI="http://xbrl.org/int/dim/arcrole/all"/>
+<roleRef xlink:type='simple' xlink:href='../fac.xsd#NetAssetsClassified' roleURI='https://github.com/seattlemethod/aasb1060/fac/role/NetAssetsClassified' /><presentationLink xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="extended" xlink:role="https://github.com/seattlemethod/aasb1060/fac/role/NetAssetsClassified">
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_NetAssetsClassifiedHypercube" xlink:label="fac_NetAssetsClassifiedHypercube"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_NetAssetsClassifiedLineItems" xlink:label="fac_NetAssetsClassifiedLineItems"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_NetAssetsClassifiedHypercube" xlink:to="fac_NetAssetsClassifiedLineItems" order="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_NetAssetsRollUp" xlink:label="fac_NetAssetsRollUp"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_NetAssetsClassifiedLineItems" xlink:to="fac_NetAssetsRollUp" order="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_Assets" xlink:label="fac_Assets"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_NetAssetsRollUp" xlink:to="fac_Assets" order="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_Liabilities" xlink:label="fac_Liabilities"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_NetAssetsRollUp" xlink:to="fac_Liabilities" order="2" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_NetAssets" xlink:label="fac_NetAssets"/>
+	<presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="fac_NetAssetsRollUp" xlink:to="fac_NetAssets" order="3" use="optional"/>
+</presentationLink><calculationLink xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="extended" xlink:role="https://github.com/seattlemethod/aasb1060/fac/role/NetAssetsClassified">
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_NetAssets" xlink:label="fac_NetAssets"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_Assets" xlink:label="fac_Assets"/>
+	<calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_NetAssets" xlink:to="fac_Assets" order="1" weight="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_Liabilities" xlink:label="fac_Liabilities"/>
+	<calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="fac_NetAssets" xlink:to="fac_Liabilities" order="2" weight="-1" use="optional"/>
+</calculationLink><definitionLink xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="extended" xlink:role="https://github.com/seattlemethod/aasb1060/fac/role/NetAssetsClassified">
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_NetAssetsClassifiedLineItems" xlink:label="fac_NetAssetsClassifiedLineItems"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_Assets" xlink:label="fac_Assets"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_NetAssetsClassifiedLineItems" xlink:to="fac_Assets" order="1" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_Liabilities" xlink:label="fac_Liabilities"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_NetAssetsClassifiedLineItems" xlink:to="fac_Liabilities" order="2" use="optional"/>
+	<loc xlink:type="locator" xlink:href="../fac.xsd#fac_NetAssets" xlink:label="fac_NetAssets"/>
+	<definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="fac_NetAssetsClassifiedLineItems" xlink:to="fac_NetAssets" order="3" use="optional"/>
+</definitionLink></linkbase>
