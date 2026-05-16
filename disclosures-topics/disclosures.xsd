@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 4/11/2023 7:34:49 AM -->
+<?twinfox name='CreatedBy' value='Charles Hoffman, CPA'?>
+<?twinfox name='CreationDateTime' value='4/11/2023 7:34:49 AM'?>
+<schema
+  xmlns='http://www.w3.org/2001/XMLSchema'
+  xmlns:xbrli='http://www.xbrl.org/2003/instance'
+  xmlns:link='http://www.xbrl.org/2003/linkbase'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+ 
+  xmlns:disclosures='https://github.com/seattlemethod/aasb1060/disclosures'
+  targetNamespace='https://github.com/seattlemethod/aasb1060/disclosures'
+ 
+  elementFormDefault='qualified'
+  attributeFormDefault='unqualified'>
+  <annotation>
+    <documentation>Reporting Scheme Disclosures</documentation>
+    <appinfo>
+      <link:roleType roleURI='https://github.com/seattlemethod/aasb1060/disclosures/role/Disclosures' id='Disclosures'>
+        <link:definition>Disclosures</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/labelLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='disclosures-lab.xml' xlink:title='Label Links, all' />
+      <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/labelLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='disclosures-doc.xml' xlink:title='Documentation Links, all' />
+      <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/referenceLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='disclosures-ref.xml' xlink:title='Reference Links, all' />
+    </appinfo>
+  </annotation>
+  <import namespace='http://www.xbrl.org/2003/instance' schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' />
+  <import namespace='http://www.xbrl.org/2003/linkbase' schemaLocation='http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd' />
+ 
+    <complexType abstract='false' mixed='false' name='disclosureItemType'>
+        <simpleContent>
+           <restriction base='xbrli:tokenItemType'>
+           <attributeGroup ref='xbrli:nonNumericItemAttrs' />
+           </restriction>
+        </simpleContent>
+    </complexType>
+  <element id='disclosures_AssetsOrDisposalGroupsClassifiedAsHeldForSaleRollUp' name='AssetsOrDisposalGroupsClassifiedAsHeldForSaleRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_AssetsRollUp' name='AssetsRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_BasisOfPresentationTextBlock' name='BasisOfPresentationTextBlock' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_BiologicalAssetsCostModelRollForward' name='BiologicalAssetsCostModelRollForward' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_BiologicalAssetsFairValueModelRollForward' name='BiologicalAssetsFairValueModelRollForward' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_BiologicalAssetsPolicies' name='BiologicalAssetsPolicies' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_BiologicalAssetsRollUp' name='BiologicalAssetsRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_BreakdownOfOtherComprehensiveIncomeLossSet' name='BreakdownOfOtherComprehensiveIncomeLossSet' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_BreakdownOfProfitLossSet' name='BreakdownOfProfitLossSet' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_CashAndCashEquivalentsPolicies' name='CashAndCashEquivalentsPolicies' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_CashAndCashEquivalentsRollForward' name='CashAndCashEquivalentsRollForward' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_CashAndCashEquivalentsRollUp' name='CashAndCashEquivalentsRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_CostOfSalesRollUp' name='CostOfSalesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_CurrentBiologicalAssetsRollUp' name='CurrentBiologicalAssetsRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_CurrentInventoriesRollUp' name='CurrentInventoriesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_CurrentProvisionsRollUp' name='CurrentProvisionsRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_DeferredTaxAssetsAndLiabilitiesRollUp' name='DeferredTaxAssetsAndLiabilitiesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_EquityPolicies' name='EquityPolicies' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_EquityRollUp' name='EquityRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_FinanceCostsIncomeRollUp' name='FinanceCostsIncomeRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_FutureLeasePaymentsLesseeRollUp' name='FutureLeasePaymentsLesseeRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_FutureLeasePaymentsReceivableUnderNoncancellableOperatingLeasesRollUp' name='FutureLeasePaymentsReceivableUnderNoncancellableOperatingLeasesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_GoodwillPolicies' name='GoodwillPolicies' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_GoodwillRollForward' name='GoodwillRollForward' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_GoodwillRollUp' name='GoodwillRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_IntangibleAssetsOtherThanGoodwillPolicies' name='IntangibleAssetsOtherThanGoodwillPolicies' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_IntangibleAssetsOtherThanGoodwillRollForward' name='IntangibleAssetsOtherThanGoodwillRollForward' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_IntangibleAssetsOtherThanGoodwillRollUp' name='IntangibleAssetsOtherThanGoodwillRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_InventoriesRollUp' name='InventoriesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_InvestmentPropertyPolicies' name='InvestmentPropertyPolicies' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_InvestmentPropertyRollForward' name='InvestmentPropertyRollForward' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_InvestmentPropertyRollUp' name='InvestmentPropertyRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_InvestmentsInAssociatesRollUp' name='InvestmentsInAssociatesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_InvestmentsInJointVenturesRollUp' name='InvestmentsInJointVenturesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_JudgementsOfManagementTextBlock' name='JudgementsOfManagementTextBlock' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_LiabilitiesAndEquityRollUp' name='LiabilitiesAndEquityRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_LiabilitiesOrDisposalGroupsClassifiedAsHeldForSaleRollUp' name='LiabilitiesOrDisposalGroupsClassifiedAsHeldForSaleRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_NatureOfOperationsTextBlock' name='NatureOfOperationsTextBlock' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_NetAssetsLiquidityRollUp' name='NetAssetsLiquidityRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_NetAssetsRollUp' name='NetAssetsRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' name='NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_NoncurrentBiologicalAssetsRollUp' name='NoncurrentBiologicalAssetsRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_NoncurrentInventoriesRollUp' name='NoncurrentInventoriesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_NoncurrentProvisionsRollUp' name='NoncurrentProvisionsRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_NumberOfShareOptionsOutstandingRollForward' name='NumberOfShareOptionsOutstandingRollForward' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_OperatingExpensesExclusingCostOfSalesRollUp' name='OperatingExpensesExclusingCostOfSalesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_OperatingExpensesRollUp' name='OperatingExpensesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_OtherCurrentFinancialAssetsRollUp' name='OtherCurrentFinancialAssetsRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_OtherCurrentFinancialLiabilitiesRollUp' name='OtherCurrentFinancialLiabilitiesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_OtherFinancialAssetsRollUp' name='OtherFinancialAssetsRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_OtherFinancialLiabilitiesRollUp' name='OtherFinancialLiabilitiesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_OtherMiscellaneousAssetsRollUp' name='OtherMiscellaneousAssetsRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_OtherMiscellaneousCurrentAssetsRollUp' name='OtherMiscellaneousCurrentAssetsRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_OtherMiscellaneousCurrentLiabilitiesRollUp' name='OtherMiscellaneousCurrentLiabilitiesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_OtherMiscellaneousLiabilitiesRollUp' name='OtherMiscellaneousLiabilitiesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_OtherMiscellaneousNoncurrentAssetsRollUp' name='OtherMiscellaneousNoncurrentAssetsRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_OtherMiscellaneousNoncurrentLiabilitiesRollUp' name='OtherMiscellaneousNoncurrentLiabilitiesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_OtherNoncurrentFinancialAssetsRollUp' name='OtherNoncurrentFinancialAssetsRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_OtherNoncurrentFinancialLiabilitiesRollUp' name='OtherNoncurrentFinancialLiabilitiesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_OtherNonoperatingIncomeExpensesNotIncludingFinanceCostsOrTaxExpenseRollUp' name='OtherNonoperatingIncomeExpensesNotIncludingFinanceCostsOrTaxExpenseRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_OtherOperatingIncomeRollUp' name='OtherOperatingIncomeRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_PropertyPlantAndEquipmentNetRollUp' name='PropertyPlantAndEquipmentNetRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_PropertyPlantAndEquipmentPolicies' name='PropertyPlantAndEquipmentPolicies' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_PropertyPlantAndEquipmentPoliciesSet' name='PropertyPlantAndEquipmentPoliciesSet' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_PropertyPlantAndEquipmentRollForward' name='PropertyPlantAndEquipmentRollForward' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_ProvisionsBreakdownRollUp' name='ProvisionsBreakdownRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_ProvisionsPolicies' name='ProvisionsPolicies' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_ProvisionsRollForward' name='ProvisionsRollForward' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_ProvisionsRollUp' name='ProvisionsRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_ReportInformation' name='ReportInformation' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_ReportingEntityInformation' name='ReportingEntityInformation' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_RetrospectiveRestatementOfEquityAdjustment' name='RetrospectiveRestatementOfEquityAdjustment' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_RevenueRecognitionPolicies' name='RevenueRecognitionPolicies' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_RevenueRollUp' name='RevenueRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_SharebasedPaymentArrangementGeneralInformationSet' name='SharebasedPaymentArrangementGeneralInformationSet' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_SharebasedPaymentsExercisableSet' name='SharebasedPaymentsExercisableSet' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_StatementOfCashFlowsDirectMethod' name='StatementOfCashFlowsDirectMethod' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_StatementOfChangesInEquity' name='StatementOfChangesInEquity' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_StatementOfFinancialPositionClassified' name='StatementOfFinancialPositionClassified' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_StatementOfFinancialPositionClassifiedAlternative' name='StatementOfFinancialPositionClassifiedAlternative' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_StatementOfFinancialPositionLiquidity' name='StatementOfFinancialPositionLiquidity' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_StatementOfIncomeByFunction' name='StatementOfIncomeByFunction' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_StatementOfIncomeByNature' name='StatementOfIncomeByNature' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_StatementOfIncomeSummarized' name='StatementOfIncomeSummarized' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_StatementOfOtherComprehensiveIncome' name='StatementOfOtherComprehensiveIncome' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_TaxExpenseIncomeRollUp' name='TaxExpenseIncomeRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_TradeAndOtherCurrentPayablesRollUp' name='TradeAndOtherCurrentPayablesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_TradeAndOtherCurrentReceivablesRollUp' name='TradeAndOtherCurrentReceivablesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_TradeAndOtherNoncurrentPayablesRollUp' name='TradeAndOtherNoncurrentPayablesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_TradeAndOtherNoncurrentReceivablesRollUp' name='TradeAndOtherNoncurrentReceivablesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_TradeAndOtherPayablesPolicies' name='TradeAndOtherPayablesPolicies' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_TradeAndOtherPayablesRollUp' name='TradeAndOtherPayablesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_TradeAndOtherReceivablesPolicies' name='TradeAndOtherReceivablesPolicies' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_TradeAndOtherReceivablesRollUp' name='TradeAndOtherReceivablesRollUp' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+  <element id='disclosures_WeightedAverageExercisePricesOfShareOptionsRollForwardInfo' name='WeightedAverageExercisePricesOfShareOptionsRollForwardInfo' type='disclosures:disclosureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' abstract='true' />
+ 
+</schema>
