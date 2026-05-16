@@ -1,0 +1,590 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 1/30/2026 9:50:36 AM -->
+<?xbrlsite name='CreatedBy' value='Charles Hoffman, CPA'?>
+<?xbrlsite name='CreationDateTime' value='1/30/2026 9:50:36 AM'?>
+<link:linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:link='http://www.xbrl.org/2003/linkbase' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+   <link:roleRef xlink:type='simple' xlink:href='extended-link-roles.xsd#ReportingChecklist' roleURI='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist'/>
+
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm-arcroles.xsd#class-equivalentClass' arcroleURI='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/drules-arcroles.xsd#financialReport-possibleDisclosure' arcroleURI='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/drules-arcroles.xsd#financialReport-reportsConcept' arcroleURI='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-reportsConcept'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/drules-arcroles.xsd#financialReport-requiresDisclosure' arcroleURI='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/drules-arcroles.xsd#reportingLineItem-requiresDisclosure' arcroleURI='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/reportingLineItem-requiresDisclosure'/>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Reporting checklist for FinancialReport using AASB 1060 reporting scheme.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/class-equivalentClass' xlink:to='cm_FinancialReport' xlink:from='cm_Thing' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Report Information is REQUIRED part of FinancialReport.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_ReportInformation' xlink:label='disclosures_ReportInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_ReportInformation' xlink:from='cm_FinancialReport' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Reporting Entity Information is REQUIRED part of FinancialReport.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_ReportingEntityInformation' xlink:label='disclosures_ReportingEntityInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_ReportingEntityInformation' xlink:from='cm_FinancialReport' order='3' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Statement of Financial Position Classified is REQUIRED part of FinancialReport.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfFinancialPositionClassified' xlink:label='disclosures_StatementOfFinancialPositionClassified' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_StatementOfFinancialPositionClassified' xlink:from='cm_FinancialReport' order='4' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Statement of Income by Function is REQUIRED part of FinancialReport.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfIncomeByFunction' xlink:label='disclosures_StatementOfIncomeByFunction' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_StatementOfIncomeByFunction' xlink:from='cm_FinancialReport' order='5' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Statement of Other Comprehensive Income is REQUIRED part of FinancialReport.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfOtherComprehensiveIncome' xlink:label='disclosures_StatementOfOtherComprehensiveIncome' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_StatementOfOtherComprehensiveIncome' xlink:from='cm_FinancialReport' order='6' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Statement of Income Summarized is REQUIRED part of FinancialReport.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfIncomeSummarized' xlink:label='disclosures_StatementOfIncomeSummarized' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_StatementOfIncomeSummarized' xlink:from='cm_FinancialReport' order='7' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Statement of Cash Flows Direct Method is REQUIRED part of FinancialReport.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfCashFlowsDirectMethod' xlink:label='disclosures_StatementOfCashFlowsDirectMethod' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_StatementOfCashFlowsDirectMethod' xlink:from='cm_FinancialReport' order='8' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Statement of Changes in Equity is REQUIRED part of FinancialReport.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfChangesInEquity' xlink:label='disclosures_StatementOfChangesInEquity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_StatementOfChangesInEquity' xlink:from='cm_FinancialReport' order='9' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Retrospective Restatement of Equity Adjustment is REQUIRED part of FinancialReport.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_RetrospectiveRestatementOfEquityAdjustment' xlink:label='disclosures_RetrospectiveRestatementOfEquityAdjustment' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_RetrospectiveRestatementOfEquityAdjustment' xlink:from='cm_FinancialReport' order='10' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Net Assets Roll Up is POSSIBLY part of FinancialReport.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_NetAssetsRollUp' xlink:label='disclosures_NetAssetsRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_NetAssetsRollUp' xlink:from='cm_FinancialReport' order='11' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Equity RollUp is POSSIBLY part of FinancialReport.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_EquityRollUp' xlink:label='disclosures_EquityRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_EquityRollUp' xlink:from='cm_FinancialReport' order='12' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Net Assets Liquidity Roll Up is POSSIBLY part of FinancialReport.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_NetAssetsLiquidityRollUp' xlink:label='disclosures_NetAssetsLiquidityRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_NetAssetsLiquidityRollUp' xlink:from='cm_FinancialReport' order='13' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Assets Roll Up is POSSIBLY part of FinancialReport.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_AssetsRollUp' xlink:label='disclosures_AssetsRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_AssetsRollUp' xlink:from='cm_FinancialReport' order='14' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Liabilities and Equity Roll Up is POSSIBLY part of FinancialReport.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_LiabilitiesAndEquityRollUp' xlink:label='disclosures_LiabilitiesAndEquityRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_LiabilitiesAndEquityRollUp' xlink:from='cm_FinancialReport' order='15' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Net Increase Decrease in Cash and Cash Equivalents Direct Method Roll Up is POSSIBLY part of FinancialReport.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' xlink:label='disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_NetIncreaseDecreaseInCashAndCashEquivalentsDirectMethodRollUp' xlink:from='cm_FinancialReport' order='16' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Cash and Cash Equivalents Roll Forward is POSSIBLY part of FinancialReport.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_CashAndCashEquivalentsRollForward' xlink:label='disclosures_CashAndCashEquivalentsRollForward' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_CashAndCashEquivalentsRollForward' xlink:from='cm_FinancialReport' order='17' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Statement of Cash Flows Direct Method is POSSIBLY part of FinancialReport.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfCashFlowsDirectMethod' xlink:label='disclosures_StatementOfCashFlowsDirectMethod' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_StatementOfCashFlowsDirectMethod' xlink:from='cm_FinancialReport' order='18' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Nature of Operations is REQUIRED part of FinancialReport.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_NatureOfOperationsTextBlock' xlink:label='disclosures_NatureOfOperationsTextBlock' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_NatureOfOperationsTextBlock' xlink:from='cm_FinancialReport' order='19' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Basis of Reporting is REQUIRED part of FinancialReport.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_BasisOfPresentationTextBlock' xlink:label='disclosures_BasisOfPresentationTextBlock' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_BasisOfPresentationTextBlock' xlink:from='cm_FinancialReport' order='20' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Revenue Recognition Policies is REQUIRED part of FinancialReport.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_RevenueRecognitionPolicies' xlink:label='disclosures_RevenueRecognitionPolicies' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_RevenueRecognitionPolicies' xlink:from='cm_FinancialReport' order='21' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='IF line item aasb1060:TradeAndOtherCurrentReceivables reported; then policy TradeAndOtherReceivablesPolicies REQUIRED.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_TradeAndOtherCurrentReceivables' xlink:label='aasb1060_TradeAndOtherCurrentReceivables' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-reportsConcept' xlink:to='aasb1060_TradeAndOtherCurrentReceivables' xlink:from='cm_FinancialReport' order='22' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='IF line item aasb1060:TradeAndOtherCurrentReceivables reported; then policy TradeAndOtherReceivablesPolicies REQUIRED.'>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_TradeAndOtherCurrentReceivables' xlink:label='aasb1060_TradeAndOtherCurrentReceivables' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_TradeAndOtherReceivablesPolicies' xlink:label='disclosures_TradeAndOtherReceivablesPolicies' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/reportingLineItem-requiresDisclosure' xlink:to='disclosures_TradeAndOtherReceivablesPolicies' xlink:from='aasb1060_TradeAndOtherCurrentReceivables' order='23' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='IF line item aasb1060:TradeAndOtherCurrentReceivables reported; then policy TradeAndOtherCurrentReceivablesRollUp REQUIRED.'>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_TradeAndOtherCurrentReceivables' xlink:label='aasb1060_TradeAndOtherCurrentReceivables' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_TradeAndOtherCurrentReceivablesRollUp' xlink:label='disclosures_TradeAndOtherCurrentReceivablesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/reportingLineItem-requiresDisclosure' xlink:to='disclosures_TradeAndOtherCurrentReceivablesRollUp' xlink:from='aasb1060_TradeAndOtherCurrentReceivables' order='24' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='IF line item aasb1060:TradeAndOtherCurrentPayables reported; then policy TradeAndOtherCurrentPayablesRollUp REQUIRED.'>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_TradeAndOtherCurrentPayables' xlink:label='aasb1060_TradeAndOtherCurrentPayables' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_TradeAndOtherCurrentPayablesRollUp' xlink:label='disclosures_TradeAndOtherCurrentPayablesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/reportingLineItem-requiresDisclosure' xlink:to='disclosures_TradeAndOtherCurrentPayablesRollUp' xlink:from='aasb1060_TradeAndOtherCurrentPayables' order='25' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='IF line item aasb1060:TradeAndOtherCurrentPayables reported; then policy TradeAndOtherPayablesPolicies REQUIRED.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_TradeAndOtherCurrentPayables' xlink:label='aasb1060_TradeAndOtherCurrentPayables' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-reportsConcept' xlink:to='aasb1060_TradeAndOtherCurrentPayables' xlink:from='cm_FinancialReport' order='26' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='IF line item aasb1060:TradeAndOtherCurrentReceivables reported; then policy TradeAndOtherPayablesPolicies REQUIRED.'>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_TradeAndOtherCurrentPayables' xlink:label='aasb1060_TradeAndOtherCurrentPayables' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_TradeAndOtherPayablesPolicies' xlink:label='disclosures_TradeAndOtherPayablesPolicies' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/reportingLineItem-requiresDisclosure' xlink:to='disclosures_TradeAndOtherPayablesPolicies' xlink:from='aasb1060_TradeAndOtherCurrentPayables' order='27' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Judgements of management is a required disclosure.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_JudgementsOfManagementTextBlock' xlink:label='disclosures_JudgementsOfManagementTextBlock' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-requiresDisclosure' xlink:to='disclosures_JudgementsOfManagementTextBlock' xlink:from='cm_FinancialReport' order='28' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_CashAndCashEquivalentsRollUp' xlink:label='disclosures_CashAndCashEquivalentsRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_CashAndCashEquivalentsRollUp' xlink:from='cm_FinancialReport' order='29' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_OtherCurrentFinancialAssetsRollUp' xlink:label='disclosures_OtherCurrentFinancialAssetsRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_OtherCurrentFinancialAssetsRollUp' xlink:from='cm_FinancialReport' order='30' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_CurrentInventoriesRollUp' xlink:label='disclosures_CurrentInventoriesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_CurrentInventoriesRollUp' xlink:from='cm_FinancialReport' order='31' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_CurrentBiologicalAssetsRollUp' xlink:label='disclosures_CurrentBiologicalAssetsRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_CurrentBiologicalAssetsRollUp' xlink:from='cm_FinancialReport' order='32' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_OtherMiscellaneousCurrentAssetsRollUp' xlink:label='disclosures_OtherMiscellaneousCurrentAssetsRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_OtherMiscellaneousCurrentAssetsRollUp' xlink:from='cm_FinancialReport' order='33' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_AssetsOrDisposalGroupsClassifiedAsHeldForSaleRollUp' xlink:label='disclosures_AssetsOrDisposalGroupsClassifiedAsHeldForSaleRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_AssetsOrDisposalGroupsClassifiedAsHeldForSaleRollUp' xlink:from='cm_FinancialReport' order='34' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_TradeAndOtherNoncurrentReceivablesRollUp' xlink:label='disclosures_TradeAndOtherNoncurrentReceivablesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_TradeAndOtherNoncurrentReceivablesRollUp' xlink:from='cm_FinancialReport' order='35' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_OtherNoncurrentFinancialAssetsRollUp' xlink:label='disclosures_OtherNoncurrentFinancialAssetsRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_OtherNoncurrentFinancialAssetsRollUp' xlink:from='cm_FinancialReport' order='36' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_NoncurrentInventoriesRollUp' xlink:label='disclosures_NoncurrentInventoriesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_NoncurrentInventoriesRollUp' xlink:from='cm_FinancialReport' order='37' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_PropertyPlantAndEquipmentNetRollUp' xlink:label='disclosures_PropertyPlantAndEquipmentNetRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_PropertyPlantAndEquipmentNetRollUp' xlink:from='cm_FinancialReport' order='38' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_InvestmentPropertyRollUp' xlink:label='disclosures_InvestmentPropertyRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_InvestmentPropertyRollUp' xlink:from='cm_FinancialReport' order='39' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_IntangibleAssetsOtherThanGoodwillRollUp' xlink:label='disclosures_IntangibleAssetsOtherThanGoodwillRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_IntangibleAssetsOtherThanGoodwillRollUp' xlink:from='cm_FinancialReport' order='40' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_GoodwillRollUp' xlink:label='disclosures_GoodwillRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_GoodwillRollUp' xlink:from='cm_FinancialReport' order='41' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_NoncurrentBiologicalAssetsRollUp' xlink:label='disclosures_NoncurrentBiologicalAssetsRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_NoncurrentBiologicalAssetsRollUp' xlink:from='cm_FinancialReport' order='42' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_InvestmentsInAssociatesRollUp' xlink:label='disclosures_InvestmentsInAssociatesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_InvestmentsInAssociatesRollUp' xlink:from='cm_FinancialReport' order='43' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_InvestmentsInJointVenturesRollUp' xlink:label='disclosures_InvestmentsInJointVenturesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_InvestmentsInJointVenturesRollUp' xlink:from='cm_FinancialReport' order='44' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_DeferredTaxAssetsAndLiabilitiesRollUp' xlink:label='disclosures_DeferredTaxAssetsAndLiabilitiesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_DeferredTaxAssetsAndLiabilitiesRollUp' xlink:from='cm_FinancialReport' order='45' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_OtherMiscellaneousNoncurrentAssetsRollUp' xlink:label='disclosures_OtherMiscellaneousNoncurrentAssetsRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_OtherMiscellaneousNoncurrentAssetsRollUp' xlink:from='cm_FinancialReport' order='46' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_TradeAndOtherReceivablesRollUp' xlink:label='disclosures_TradeAndOtherReceivablesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_TradeAndOtherReceivablesRollUp' xlink:from='cm_FinancialReport' order='47' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_OtherFinancialAssetsRollUp' xlink:label='disclosures_OtherFinancialAssetsRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_OtherFinancialAssetsRollUp' xlink:from='cm_FinancialReport' order='48' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_InventoriesRollUp' xlink:label='disclosures_InventoriesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_InventoriesRollUp' xlink:from='cm_FinancialReport' order='49' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_BiologicalAssetsRollUp' xlink:label='disclosures_BiologicalAssetsRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_BiologicalAssetsRollUp' xlink:from='cm_FinancialReport' order='50' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_OtherMiscellaneousAssetsRollUp' xlink:label='disclosures_OtherMiscellaneousAssetsRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_OtherMiscellaneousAssetsRollUp' xlink:from='cm_FinancialReport' order='51' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_OtherCurrentFinancialLiabilitiesRollUp' xlink:label='disclosures_OtherCurrentFinancialLiabilitiesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_OtherCurrentFinancialLiabilitiesRollUp' xlink:from='cm_FinancialReport' order='52' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_CurrentProvisionsRollUp' xlink:label='disclosures_CurrentProvisionsRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_CurrentProvisionsRollUp' xlink:from='cm_FinancialReport' order='53' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_OtherMiscellaneousCurrentLiabilitiesRollUp' xlink:label='disclosures_OtherMiscellaneousCurrentLiabilitiesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_OtherMiscellaneousCurrentLiabilitiesRollUp' xlink:from='cm_FinancialReport' order='54' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_LiabilitiesOrDisposalGroupsClassifiedAsHeldForSaleRollUp' xlink:label='disclosures_LiabilitiesOrDisposalGroupsClassifiedAsHeldForSaleRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_LiabilitiesOrDisposalGroupsClassifiedAsHeldForSaleRollUp' xlink:from='cm_FinancialReport' order='55' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_TradeAndOtherNoncurrentPayablesRollUp' xlink:label='disclosures_TradeAndOtherNoncurrentPayablesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_TradeAndOtherNoncurrentPayablesRollUp' xlink:from='cm_FinancialReport' order='56' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_NoncurrentProvisionsRollUp' xlink:label='disclosures_NoncurrentProvisionsRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_NoncurrentProvisionsRollUp' xlink:from='cm_FinancialReport' order='57' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_OtherNoncurrentFinancialLiabilitiesRollUp' xlink:label='disclosures_OtherNoncurrentFinancialLiabilitiesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_OtherNoncurrentFinancialLiabilitiesRollUp' xlink:from='cm_FinancialReport' order='58' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_OtherMiscellaneousNoncurrentLiabilitiesRollUp' xlink:label='disclosures_OtherMiscellaneousNoncurrentLiabilitiesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_OtherMiscellaneousNoncurrentLiabilitiesRollUp' xlink:from='cm_FinancialReport' order='59' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_TradeAndOtherPayablesRollUp' xlink:label='disclosures_TradeAndOtherPayablesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_TradeAndOtherPayablesRollUp' xlink:from='cm_FinancialReport' order='60' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_OtherFinancialLiabilitiesRollUp' xlink:label='disclosures_OtherFinancialLiabilitiesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_OtherFinancialLiabilitiesRollUp' xlink:from='cm_FinancialReport' order='61' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_ProvisionsRollUp' xlink:label='disclosures_ProvisionsRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_ProvisionsRollUp' xlink:from='cm_FinancialReport' order='62' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_OtherMiscellaneousLiabilitiesRollUp' xlink:label='disclosures_OtherMiscellaneousLiabilitiesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_OtherMiscellaneousLiabilitiesRollUp' xlink:from='cm_FinancialReport' order='63' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_RevenueRollUp' xlink:label='disclosures_RevenueRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_RevenueRollUp' xlink:from='cm_FinancialReport' order='64' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_CostOfSalesRollUp' xlink:label='disclosures_CostOfSalesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_CostOfSalesRollUp' xlink:from='cm_FinancialReport' order='65' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_OtherOperatingIncomeRollUp' xlink:label='disclosures_OtherOperatingIncomeRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_OtherOperatingIncomeRollUp' xlink:from='cm_FinancialReport' order='66' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_OperatingExpensesExclusingCostOfSalesRollUp' xlink:label='disclosures_OperatingExpensesExclusingCostOfSalesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_OperatingExpensesExclusingCostOfSalesRollUp' xlink:from='cm_FinancialReport' order='67' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_OtherNonoperatingIncomeExpensesNotIncludingFinanceCostsOrTaxExpenseRollUp' xlink:label='disclosures_OtherNonoperatingIncomeExpensesNotIncludingFinanceCostsOrTaxExpenseRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_OtherNonoperatingIncomeExpensesNotIncludingFinanceCostsOrTaxExpenseRollUp' xlink:from='cm_FinancialReport' order='68' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_FinanceCostsIncomeRollUp' xlink:label='disclosures_FinanceCostsIncomeRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_FinanceCostsIncomeRollUp' xlink:from='cm_FinancialReport' order='69' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_OperatingExpensesRollUp' xlink:label='disclosures_OperatingExpensesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_OperatingExpensesRollUp' xlink:from='cm_FinancialReport' order='70' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_TaxExpenseIncomeRollUp' xlink:label='disclosures_TaxExpenseIncomeRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_TaxExpenseIncomeRollUp' xlink:from='cm_FinancialReport' order='71' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_PropertyPlantAndEquipmentRollForward' xlink:label='disclosures_PropertyPlantAndEquipmentRollForward' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_PropertyPlantAndEquipmentRollForward' xlink:from='cm_FinancialReport' order='72' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_InvestmentPropertyRollForward' xlink:label='disclosures_InvestmentPropertyRollForward' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_InvestmentPropertyRollForward' xlink:from='cm_FinancialReport' order='73' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_IntangibleAssetsOtherThanGoodwillRollForward' xlink:label='disclosures_IntangibleAssetsOtherThanGoodwillRollForward' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_IntangibleAssetsOtherThanGoodwillRollForward' xlink:from='cm_FinancialReport' order='74' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_GoodwillRollForward' xlink:label='disclosures_GoodwillRollForward' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_GoodwillRollForward' xlink:from='cm_FinancialReport' order='75' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_BiologicalAssetsFairValueModelRollForward' xlink:label='disclosures_BiologicalAssetsFairValueModelRollForward' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_BiologicalAssetsFairValueModelRollForward' xlink:from='cm_FinancialReport' order='76' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_BiologicalAssetsCostModelRollForward' xlink:label='disclosures_BiologicalAssetsCostModelRollForward' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_BiologicalAssetsCostModelRollForward' xlink:from='cm_FinancialReport' order='77' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_ProvisionsRollForward' xlink:label='disclosures_ProvisionsRollForward' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_ProvisionsRollForward' xlink:from='cm_FinancialReport' order='78' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_ProvisionsBreakdownRollUp' xlink:label='disclosures_ProvisionsBreakdownRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_ProvisionsBreakdownRollUp' xlink:from='cm_FinancialReport' order='79' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_FutureLeasePaymentsLesseeRollUp' xlink:label='disclosures_FutureLeasePaymentsLesseeRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_FutureLeasePaymentsLesseeRollUp' xlink:from='cm_FinancialReport' order='80' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_FutureLeasePaymentsReceivableUnderNoncancellableOperatingLeasesRollUp' xlink:label='disclosures_FutureLeasePaymentsReceivableUnderNoncancellableOperatingLeasesRollUp' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_FutureLeasePaymentsReceivableUnderNoncancellableOperatingLeasesRollUp' xlink:from='cm_FinancialReport' order='81' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_SharebasedPaymentArrangementGeneralInformationSet' xlink:label='disclosures_SharebasedPaymentArrangementGeneralInformationSet' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_SharebasedPaymentArrangementGeneralInformationSet' xlink:from='cm_FinancialReport' order='82' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_NumberOfShareOptionsOutstandingRollForward' xlink:label='disclosures_NumberOfShareOptionsOutstandingRollForward' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_NumberOfShareOptionsOutstandingRollForward' xlink:from='cm_FinancialReport' order='83' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_WeightedAverageExercisePricesOfShareOptionsRollForwardInfo' xlink:label='disclosures_WeightedAverageExercisePricesOfShareOptionsRollForwardInfo' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_WeightedAverageExercisePricesOfShareOptionsRollForwardInfo' xlink:from='cm_FinancialReport' order='84' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_SharebasedPaymentsExercisableSet' xlink:label='disclosures_SharebasedPaymentsExercisableSet' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_SharebasedPaymentsExercisableSet' xlink:from='cm_FinancialReport' order='85' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_PropertyPlantAndEquipmentPoliciesSet' xlink:label='disclosures_PropertyPlantAndEquipmentPoliciesSet' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_PropertyPlantAndEquipmentPoliciesSet' xlink:from='cm_FinancialReport' order='86' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfFinancialPositionLiquidity' xlink:label='disclosures_StatementOfFinancialPositionLiquidity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_StatementOfFinancialPositionLiquidity' xlink:from='cm_FinancialReport' order='87' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_StatementOfFinancialPositionClassifiedAlternative' xlink:label='disclosures_StatementOfFinancialPositionClassifiedAlternative' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_StatementOfFinancialPositionClassifiedAlternative' xlink:from='cm_FinancialReport' order='88' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_BiologicalAssetsPolicies' xlink:label='disclosures_BiologicalAssetsPolicies' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_BiologicalAssetsPolicies' xlink:from='cm_FinancialReport' order='89' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_CashAndCashEquivalentsPolicies' xlink:label='disclosures_CashAndCashEquivalentsPolicies' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_CashAndCashEquivalentsPolicies' xlink:from='cm_FinancialReport' order='90' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_EquityPolicies' xlink:label='disclosures_EquityPolicies' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_EquityPolicies' xlink:from='cm_FinancialReport' order='91' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_GoodwillPolicies' xlink:label='disclosures_GoodwillPolicies' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_GoodwillPolicies' xlink:from='cm_FinancialReport' order='92' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_IntangibleAssetsOtherThanGoodwillPolicies' xlink:label='disclosures_IntangibleAssetsOtherThanGoodwillPolicies' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_IntangibleAssetsOtherThanGoodwillPolicies' xlink:from='cm_FinancialReport' order='93' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_InvestmentPropertyPolicies' xlink:label='disclosures_InvestmentPropertyPolicies' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_InvestmentPropertyPolicies' xlink:from='cm_FinancialReport' order='94' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_PropertyPlantAndEquipmentPolicies' xlink:label='disclosures_PropertyPlantAndEquipmentPolicies' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_PropertyPlantAndEquipmentPolicies' xlink:from='cm_FinancialReport' order='95' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/elr/role/ReportingChecklist' xlink:title='Possible disclosure, work in progress.'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_FinancialReport' xlink:label='cm_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='../disclosures-topics/disclosures.xsd#disclosures_ProvisionsPolicies' xlink:label='disclosures_ProvisionsPolicies' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/drules-arcroles/arcrole/financialReport-possibleDisclosure' xlink:to='disclosures_ProvisionsPolicies' xlink:from='cm_FinancialReport' order='96' use='optional' />
+   </link:definitionLink>
+
+</link:linkbase>
