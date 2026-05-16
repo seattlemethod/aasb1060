@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 3/2/2023 3:57:58 PM -->
+<!-- Public Domain Dedication: https://creativecommons.org/publicdomain/zero/1.0/ -->
+<link:linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:link='http://www.xbrl.org/2003/linkbase' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+   <link:roleRef xlink:type='simple' xlink:href='type-subtype-elr-roles.xsd#StatementOfChangesInEquity' roleURI='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfChangesInEquity'/>
+ 
+   <link:arcroleRef xlink:type='simple' xlink:href='https://xbrlsite.azurewebsites.net/seattlemethod/cm/cm-proposed-arcroles.xsd#instant-inflow' arcroleURI='https://xbrlsite.azurewebsites.net/seattlemethod/cm/proposed/arcrole/instant-inflow'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='https://xbrlsite.azurewebsites.net/seattlemethod/cm/cm-proposed-arcroles.xsd#instant-outflow' arcroleURI='https://xbrlsite.azurewebsites.net/seattlemethod/cm/proposed/arcrole/instant-outflow'/>
+ 
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfChangesInEquity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Equity' xlink:label='aasb1060_Equity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_Equity' xlink:from='cm_Thing' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfChangesInEquity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Equity' xlink:label='aasb1060_Equity' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ProfitLoss' xlink:label='aasb1060_ProfitLoss' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://xbrlsite.azurewebsites.net/seattlemethod/cm/proposed/arcrole/instant-inflow' xlink:to='aasb1060_ProfitLoss' xlink:from='aasb1060_Equity' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfChangesInEquity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Equity' xlink:label='aasb1060_Equity' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherComprehensiveIncomeLoss' xlink:label='aasb1060_OtherComprehensiveIncomeLoss' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://xbrlsite.azurewebsites.net/seattlemethod/cm/proposed/arcrole/instant-inflow' xlink:to='aasb1060_OtherComprehensiveIncomeLoss' xlink:from='aasb1060_Equity' order='3' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfChangesInEquity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Equity' xlink:label='aasb1060_Equity' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Dividends' xlink:label='aasb1060_Dividends' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://xbrlsite.azurewebsites.net/seattlemethod/cm/proposed/arcrole/instant-outflow' xlink:to='aasb1060_Dividends' xlink:from='aasb1060_Equity' order='4' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfChangesInEquity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Equity' xlink:label='aasb1060_Equity' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_IssueOfShares' xlink:label='aasb1060_IssueOfShares' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://xbrlsite.azurewebsites.net/seattlemethod/cm/proposed/arcrole/instant-inflow' xlink:to='aasb1060_IssueOfShares' xlink:from='aasb1060_Equity' order='5' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfChangesInEquity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Equity' xlink:label='aasb1060_Equity' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_BuybackOfShares' xlink:label='aasb1060_BuybackOfShares' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://xbrlsite.azurewebsites.net/seattlemethod/cm/proposed/arcrole/instant-outflow' xlink:to='aasb1060_BuybackOfShares' xlink:from='aasb1060_Equity' order='6' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfChangesInEquity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Equity' xlink:label='aasb1060_Equity' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_SharebasedPayments' xlink:label='aasb1060_SharebasedPayments' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://xbrlsite.azurewebsites.net/seattlemethod/cm/proposed/arcrole/instant-outflow' xlink:to='aasb1060_SharebasedPayments' xlink:from='aasb1060_Equity' order='7' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfChangesInEquity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Equity' xlink:label='aasb1060_Equity' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_TransferOfReserves' xlink:label='aasb1060_TransferOfReserves' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://xbrlsite.azurewebsites.net/seattlemethod/cm/proposed/arcrole/instant-outflow' xlink:to='aasb1060_TransferOfReserves' xlink:from='aasb1060_Equity' order='8' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfChangesInEquity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Equity' xlink:label='aasb1060_Equity' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherMiscellaneousEquityTransactions' xlink:label='aasb1060_OtherMiscellaneousEquityTransactions' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://xbrlsite.azurewebsites.net/seattlemethod/cm/proposed/arcrole/instant-inflow' xlink:to='aasb1060_OtherMiscellaneousEquityTransactions' xlink:from='aasb1060_Equity' order='9' use='optional' />
+   </link:definitionLink>
+
+</link:linkbase>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 3/2/2023 3:57:58 PM -->
+<!-- Public Domain Dedication: https://creativecommons.org/publicdomain/zero/1.0/ -->
+<link:linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:link='http://www.xbrl.org/2003/linkbase' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+   <link:roleRef xlink:type='simple' xlink:href='type-subtype-elr-roles.xsd#Other' roleURI='https://github.com/seattlemethod/aasb1060/type-subtype/role/Other'/>
+ 
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm-arcroles.xsd#has-part' arcroleURI='https://github.com/seattlemethod/universal/cm/arcrole/has-part'/>
+ 
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/Other' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Provisions' xlink:label='aasb1060_Provisions' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_NoncurrentProvisions' xlink:label='aasb1060_NoncurrentProvisions' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_NoncurrentProvisions' xlink:from='aasb1060_Provisions' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/Other' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_DeferredTaxAssetsLiabilities' xlink:label='aasb1060_DeferredTaxAssetsLiabilities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_DeferredTaxAssets' xlink:label='aasb1060_DeferredTaxAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_DeferredTaxAssets' xlink:from='aasb1060_DeferredTaxAssetsLiabilities' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/Other' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Provisions' xlink:label='aasb1060_Provisions' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CurrentProvisions' xlink:label='aasb1060_CurrentProvisions' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_CurrentProvisions' xlink:from='aasb1060_Provisions' order='3' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/Other' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_DeferredTaxAssetsLiabilities' xlink:label='aasb1060_DeferredTaxAssetsLiabilities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_DeferredTaxLiabilities' xlink:label='aasb1060_DeferredTaxLiabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_DeferredTaxLiabilities' xlink:from='aasb1060_DeferredTaxAssetsLiabilities' order='4' use='optional' />
+   </link:definitionLink>
+
+</link:linkbase>

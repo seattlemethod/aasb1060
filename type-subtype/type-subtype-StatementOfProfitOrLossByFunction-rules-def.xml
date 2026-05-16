@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 3/2/2023 3:57:59 PM -->
+<!-- Public Domain Dedication: https://creativecommons.org/publicdomain/zero/1.0/ -->
+<link:linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:link='http://www.xbrl.org/2003/linkbase' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+   <link:roleRef xlink:type='simple' xlink:href='type-subtype-elr-roles.xsd#StatementOfProfitOrLossByFunction' roleURI='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction'/>
+
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm-arcroles.xsd#has-part' arcroleURI='https://github.com/seattlemethod/universal/cm/arcrole/has-part'/>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CostOfSales' xlink:label='aasb1060_CostOfSales' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_RawMaterialsAndConsumablesUsed' xlink:label='aasb1060_RawMaterialsAndConsumablesUsed' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_RawMaterialsAndConsumablesUsed' xlink:from='aasb1060_CostOfSales' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CostOfSales' xlink:label='aasb1060_CostOfSales' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_TransportationCosts' xlink:label='aasb1060_TransportationCosts' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_TransportationCosts' xlink:from='aasb1060_CostOfSales' order='3' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ProfitLoss' xlink:label='aasb1060_ProfitLoss' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ProfitLossFromContinuingOperations' xlink:label='aasb1060_ProfitLossFromContinuingOperations' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_ProfitLossFromContinuingOperations' xlink:from='aasb1060_ProfitLoss' order='4' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OperatingExpensesExcludingCostOfSales' xlink:label='aasb1060_OperatingExpensesExcludingCostOfSales' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Depreciation' xlink:label='aasb1060_Depreciation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_Depreciation' xlink:from='aasb1060_OperatingExpensesExcludingCostOfSales' order='5' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ProfitLossFromContinuingOperations' xlink:label='aasb1060_ProfitLossFromContinuingOperations' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ProfitLossBeforeTax' xlink:label='aasb1060_ProfitLossBeforeTax' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_ProfitLossBeforeTax' xlink:from='aasb1060_ProfitLossFromContinuingOperations' order='6' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OperatingExpensesExcludingCostOfSales' xlink:label='aasb1060_OperatingExpensesExcludingCostOfSales' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OccupancyExpenses' xlink:label='aasb1060_OccupancyExpenses' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_OccupancyExpenses' xlink:from='aasb1060_OperatingExpensesExcludingCostOfSales' order='7' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CostOfSales' xlink:label='aasb1060_CostOfSales' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_RawMaterialsAndConsumablesUsed' xlink:label='aasb1060_RawMaterialsAndConsumablesUsed' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_RawMaterialsAndConsumablesUsed' xlink:from='aasb1060_CostOfSales' order='8' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CostOfSales' xlink:label='aasb1060_CostOfSales' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_TransportationCosts' xlink:label='aasb1060_TransportationCosts' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_TransportationCosts' xlink:from='aasb1060_CostOfSales' order='9' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OperatingExpensesExcludingCostOfSales' xlink:label='aasb1060_OperatingExpensesExcludingCostOfSales' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_AdministrativeExpenses' xlink:label='aasb1060_AdministrativeExpenses' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_AdministrativeExpenses' xlink:from='aasb1060_OperatingExpensesExcludingCostOfSales' order='10' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ProfitLossBeforeTax' xlink:label='aasb1060_ProfitLossBeforeTax' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ProfitLossBeforeFinanceCostsTaxExpense' xlink:label='aasb1060_ProfitLossBeforeFinanceCostsTaxExpense' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_ProfitLossBeforeFinanceCostsTaxExpense' xlink:from='aasb1060_ProfitLossBeforeTax' order='11' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ProfitLossBeforeFinanceCostsTaxExpense' xlink:label='aasb1060_ProfitLossBeforeFinanceCostsTaxExpense' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ProfitLossFromOperatingActivities' xlink:label='aasb1060_ProfitLossFromOperatingActivities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_ProfitLossFromOperatingActivities' xlink:from='aasb1060_ProfitLossBeforeFinanceCostsTaxExpense' order='12' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OperatingExpensesExcludingCostOfSales' xlink:label='aasb1060_OperatingExpensesExcludingCostOfSales' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ResearchAndDevelopmentExpenses' xlink:label='aasb1060_ResearchAndDevelopmentExpenses' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_ResearchAndDevelopmentExpenses' xlink:from='aasb1060_OperatingExpensesExcludingCostOfSales' order='13' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OperatingExpensesExcludingCostOfSales' xlink:label='aasb1060_OperatingExpensesExcludingCostOfSales' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ExpensesOfRestructuringActivities' xlink:label='aasb1060_ExpensesOfRestructuringActivities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_ExpensesOfRestructuringActivities' xlink:from='aasb1060_OperatingExpensesExcludingCostOfSales' order='14' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ProfitLossFromOperatingActivities' xlink:label='aasb1060_ProfitLossFromOperatingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OperatingIncomeLoss' xlink:label='aasb1060_OperatingIncomeLoss' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_OperatingIncomeLoss' xlink:from='aasb1060_ProfitLossFromOperatingActivities' order='15' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OperatingExpensesExcludingCostOfSales' xlink:label='aasb1060_OperatingExpensesExcludingCostOfSales' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_EmployeeBenefits' xlink:label='aasb1060_EmployeeBenefits' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_EmployeeBenefits' xlink:from='aasb1060_OperatingExpensesExcludingCostOfSales' order='16' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OperatingIncomeLoss' xlink:label='aasb1060_OperatingIncomeLoss' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_GrossProfit' xlink:label='aasb1060_GrossProfit' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_GrossProfit' xlink:from='aasb1060_OperatingIncomeLoss' order='17' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_GrossProfit' xlink:label='aasb1060_GrossProfit' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Revenue' xlink:label='aasb1060_Revenue' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_Revenue' xlink:from='aasb1060_GrossProfit' order='18' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OperatingExpensesExcludingCostOfSales' xlink:label='aasb1060_OperatingExpensesExcludingCostOfSales' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_AdvertisingCosts' xlink:label='aasb1060_AdvertisingCosts' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_AdvertisingCosts' xlink:from='aasb1060_OperatingExpensesExcludingCostOfSales' order='19' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_GrossProfit' xlink:label='aasb1060_GrossProfit' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CostOfSales' xlink:label='aasb1060_CostOfSales' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_CostOfSales' xlink:from='aasb1060_GrossProfit' order='20' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OperatingExpensesExcludingCostOfSales' xlink:label='aasb1060_OperatingExpensesExcludingCostOfSales' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherOperatingExpensesByFunction' xlink:label='aasb1060_OtherOperatingExpensesByFunction' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_OtherOperatingExpensesByFunction' xlink:from='aasb1060_OperatingExpensesExcludingCostOfSales' order='21' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OperatingIncomeLoss' xlink:label='aasb1060_OperatingIncomeLoss' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherOperatingIncome' xlink:label='aasb1060_OtherOperatingIncome' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_OtherOperatingIncome' xlink:from='aasb1060_OperatingIncomeLoss' order='22' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ProfitLossFromOperatingActivities' xlink:label='aasb1060_ProfitLossFromOperatingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OperatingExpensesExcludingCostOfSales' xlink:label='aasb1060_OperatingExpensesExcludingCostOfSales' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_OperatingExpensesExcludingCostOfSales' xlink:from='aasb1060_ProfitLossFromOperatingActivities' order='23' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ProfitLossBeforeFinanceCostsTaxExpense' xlink:label='aasb1060_ProfitLossBeforeFinanceCostsTaxExpense' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_NonoperatingIncomeExpense' xlink:label='aasb1060_NonoperatingIncomeExpense' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_NonoperatingIncomeExpense' xlink:from='aasb1060_ProfitLossBeforeFinanceCostsTaxExpense' order='24' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_NonoperatingIncomeExpense' xlink:label='aasb1060_NonoperatingIncomeExpense' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_IncomeLossFromEquityAccountedEntities' xlink:label='aasb1060_IncomeLossFromEquityAccountedEntities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_IncomeLossFromEquityAccountedEntities' xlink:from='aasb1060_NonoperatingIncomeExpense' order='25' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_NonoperatingIncomeExpense' xlink:label='aasb1060_NonoperatingIncomeExpense' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherNonoperatingIncomeExpenseNotIncludingFinanceCostsOrTaxExpense' xlink:label='aasb1060_OtherNonoperatingIncomeExpenseNotIncludingFinanceCostsOrTaxExpense' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_OtherNonoperatingIncomeExpenseNotIncludingFinanceCostsOrTaxExpense' xlink:from='aasb1060_NonoperatingIncomeExpense' order='26' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ProfitLossBeforeTax' xlink:label='aasb1060_ProfitLossBeforeTax' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_FinanceCostsIncome' xlink:label='aasb1060_FinanceCostsIncome' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_FinanceCostsIncome' xlink:from='aasb1060_ProfitLossBeforeTax' order='27' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ProfitLossFromContinuingOperations' xlink:label='aasb1060_ProfitLossFromContinuingOperations' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_TaxExpenseIncome' xlink:label='aasb1060_TaxExpenseIncome' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_TaxExpenseIncome' xlink:from='aasb1060_ProfitLossFromContinuingOperations' order='28' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfProfitOrLossByFunction' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ProfitLoss' xlink:label='aasb1060_ProfitLoss' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ProfitLossFromDiscontinuedOperations' xlink:label='aasb1060_ProfitLossFromDiscontinuedOperations' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_ProfitLossFromDiscontinuedOperations' xlink:from='aasb1060_ProfitLoss' order='29' use='optional' />
+   </link:definitionLink>
+
+</link:linkbase>

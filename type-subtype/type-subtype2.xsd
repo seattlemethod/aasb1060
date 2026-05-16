@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 3/2/2023 3:57:59 PM -->
+<schema
+  xmlns='http://www.w3.org/2001/XMLSchema'
+  xmlns:xbrli='http://www.xbrl.org/2003/instance'
+  xmlns:link='http://www.xbrl.org/2003/linkbase'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  xmlns:type-subtype='https://github.com/seattlemethod/aasb1060/type-subtype'
+  xmlns:generic='http://xbrl.org/2008/generic'
+  targetNamespace='https://github.com/seattlemethod/aasb1060/type-subtype'
+  elementFormDefault='qualified'
+  attributeFormDefault='unqualified'>
+  <annotation>
+    <appinfo>
+ 
+   <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='type-subtype-Disclosures-rules-def.xml'  xlink:title='Disclosures'/>
+   <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='type-subtype-Other-rules-def.xml'  xlink:title='Other'/>
+   <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='type-subtype-StatementOfCashFlowsDirectMethod-rules-def.xml'  xlink:title='StatementOfCashFlowsDirectMethod'/>
+   <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='type-subtype-StatementOfChangesInEquity-rules-def.xml'  xlink:title='StatementOfChangesInEquity'/>
+   <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='type-subtype-StatementOfFinancialPositionClassifiedAlternative-rules-def.xml'  xlink:title='StatementOfFinancialPositionClassifiedAlternative'/>
+   <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='type-subtype-StatementOfFinancialPositionLiquidity-rules-def.xml'  xlink:title='StatementOfFinancialPositionLiquidity'/>
+   <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='type-subtype-StatementOfNetAssetsClassified-rules-def.xml'  xlink:title='StatementOfNetAssetsClassified'/>
+   <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='type-subtype-StatementOfOtherComprehensiveIncome-rules-def.xml'  xlink:title='StatementOfOtherComprehensiveIncome'/>
+   <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='type-subtype-StatementOfProfitOrLossByFunction-rules-def.xml'  xlink:title='StatementOfProfitOrLossByFunction'/>
+   <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='type-subtype-StatementOfProfitOrLossByNature-rules-def.xml'  xlink:title='StatementOfProfitOrLossByNature'/>
+ 
+ 
+    <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/labelLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='../base-taxonomy/aasb1060-lab.xml' />
+    <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/labelLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm-lab.xml' />
+    </appinfo>
+  </annotation>
+  <import namespace='http://www.xbrl.org/2003/instance' schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' />
+</schema>

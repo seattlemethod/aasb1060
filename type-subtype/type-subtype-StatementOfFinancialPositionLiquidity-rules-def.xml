@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 3/2/2023 3:57:59 PM -->
+<!-- Public Domain Dedication: https://creativecommons.org/publicdomain/zero/1.0/ -->
+<link:linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:link='http://www.xbrl.org/2003/linkbase' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+   <link:roleRef xlink:type='simple' xlink:href='type-subtype-elr-roles.xsd#StatementOfFinancialPositionLiquidity' roleURI='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity'/>
+ 
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm-arcroles.xsd#has-part' arcroleURI='https://github.com/seattlemethod/universal/cm/arcrole/has-part'/>
+ 
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Equity' xlink:label='aasb1060_Equity' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_EquityAttributableToOwnersOfParent' xlink:label='aasb1060_EquityAttributableToOwnersOfParent' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_EquityAttributableToOwnersOfParent' xlink:from='aasb1060_Equity' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_EquityAttributableToOwnersOfParent' xlink:label='aasb1060_EquityAttributableToOwnersOfParent' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_IssuedCapital' xlink:label='aasb1060_IssuedCapital' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_IssuedCapital' xlink:from='aasb1060_EquityAttributableToOwnersOfParent' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_EquityAttributableToOwnersOfParent' xlink:label='aasb1060_EquityAttributableToOwnersOfParent' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_RetainedEarnings' xlink:label='aasb1060_RetainedEarnings' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_RetainedEarnings' xlink:from='aasb1060_EquityAttributableToOwnersOfParent' order='3' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_EquityAttributableToOwnersOfParent' xlink:label='aasb1060_EquityAttributableToOwnersOfParent' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_SharePremium' xlink:label='aasb1060_SharePremium' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_SharePremium' xlink:from='aasb1060_EquityAttributableToOwnersOfParent' order='4' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_EquityAttributableToOwnersOfParent' xlink:label='aasb1060_EquityAttributableToOwnersOfParent' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_TreasuryShares' xlink:label='aasb1060_TreasuryShares' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_TreasuryShares' xlink:from='aasb1060_EquityAttributableToOwnersOfParent' order='5' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_EquityAttributableToOwnersOfParent' xlink:label='aasb1060_EquityAttributableToOwnersOfParent' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherEquityInterest' xlink:label='aasb1060_OtherEquityInterest' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_OtherEquityInterest' xlink:from='aasb1060_EquityAttributableToOwnersOfParent' order='6' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_EquityAttributableToOwnersOfParent' xlink:label='aasb1060_EquityAttributableToOwnersOfParent' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherReserves' xlink:label='aasb1060_OtherReserves' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_OtherReserves' xlink:from='aasb1060_EquityAttributableToOwnersOfParent' order='7' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Equity' xlink:label='aasb1060_Equity' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_NoncontrollingInterests' xlink:label='aasb1060_NoncontrollingInterests' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_NoncontrollingInterests' xlink:from='aasb1060_Equity' order='8' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_NetAssets' xlink:label='aasb1060_NetAssets' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Assets' xlink:label='aasb1060_Assets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_Assets' xlink:from='aasb1060_NetAssets' order='9' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Assets' xlink:label='aasb1060_Assets' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashAndCashEquivalents' xlink:label='aasb1060_CashAndCashEquivalents' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_CashAndCashEquivalents' xlink:from='aasb1060_Assets' order='10' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Assets' xlink:label='aasb1060_Assets' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_TradeAndOtherReceivables' xlink:label='aasb1060_TradeAndOtherReceivables' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_TradeAndOtherReceivables' xlink:from='aasb1060_Assets' order='11' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Assets' xlink:label='aasb1060_Assets' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherFinancialAssets' xlink:label='aasb1060_OtherFinancialAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_OtherFinancialAssets' xlink:from='aasb1060_Assets' order='12' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Assets' xlink:label='aasb1060_Assets' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Inventories' xlink:label='aasb1060_Inventories' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_Inventories' xlink:from='aasb1060_Assets' order='13' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Assets' xlink:label='aasb1060_Assets' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_PropertyPlantAndEquipmentNet' xlink:label='aasb1060_PropertyPlantAndEquipmentNet' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_PropertyPlantAndEquipmentNet' xlink:from='aasb1060_Assets' order='14' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Assets' xlink:label='aasb1060_Assets' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_InvestmentProperty' xlink:label='aasb1060_InvestmentProperty' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_InvestmentProperty' xlink:from='aasb1060_Assets' order='15' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Assets' xlink:label='aasb1060_Assets' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_IntangibleAssetsOtherThanGoodwill' xlink:label='aasb1060_IntangibleAssetsOtherThanGoodwill' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_IntangibleAssetsOtherThanGoodwill' xlink:from='aasb1060_Assets' order='16' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Assets' xlink:label='aasb1060_Assets' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Goodwill' xlink:label='aasb1060_Goodwill' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_Goodwill' xlink:from='aasb1060_Assets' order='17' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Assets' xlink:label='aasb1060_Assets' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_BiologicalAssets' xlink:label='aasb1060_BiologicalAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_BiologicalAssets' xlink:from='aasb1060_Assets' order='18' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Assets' xlink:label='aasb1060_Assets' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_InvestmentsInAssociates' xlink:label='aasb1060_InvestmentsInAssociates' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_InvestmentsInAssociates' xlink:from='aasb1060_Assets' order='19' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Assets' xlink:label='aasb1060_Assets' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_InvestmentsInJointVentures' xlink:label='aasb1060_InvestmentsInJointVentures' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_InvestmentsInJointVentures' xlink:from='aasb1060_Assets' order='20' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Assets' xlink:label='aasb1060_Assets' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_DeferredTaxAssets' xlink:label='aasb1060_DeferredTaxAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_DeferredTaxAssets' xlink:from='aasb1060_Assets' order='21' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Assets' xlink:label='aasb1060_Assets' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherMiscellaneousAssets' xlink:label='aasb1060_OtherMiscellaneousAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_OtherMiscellaneousAssets' xlink:from='aasb1060_Assets' order='22' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Assets' xlink:label='aasb1060_Assets' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_AssetsOrDisposalGroupsClassifiedAsHeldForSale' xlink:label='aasb1060_AssetsOrDisposalGroupsClassifiedAsHeldForSale' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_AssetsOrDisposalGroupsClassifiedAsHeldForSale' xlink:from='aasb1060_Assets' order='23' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_NetAssets' xlink:label='aasb1060_NetAssets' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Liabilities' xlink:label='aasb1060_Liabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_Liabilities' xlink:from='aasb1060_NetAssets' order='24' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Liabilities' xlink:label='aasb1060_Liabilities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_TradeAndOtherPayables' xlink:label='aasb1060_TradeAndOtherPayables' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_TradeAndOtherPayables' xlink:from='aasb1060_Liabilities' order='25' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Liabilities' xlink:label='aasb1060_Liabilities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherFinancialLiabilities' xlink:label='aasb1060_OtherFinancialLiabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_OtherFinancialLiabilities' xlink:from='aasb1060_Liabilities' order='26' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Liabilities' xlink:label='aasb1060_Liabilities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Provisions' xlink:label='aasb1060_Provisions' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_Provisions' xlink:from='aasb1060_Liabilities' order='27' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Liabilities' xlink:label='aasb1060_Liabilities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_DeferredTaxLiabilities' xlink:label='aasb1060_DeferredTaxLiabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_DeferredTaxLiabilities' xlink:from='aasb1060_Liabilities' order='28' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Liabilities' xlink:label='aasb1060_Liabilities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherMiscellaneousLiabilities' xlink:label='aasb1060_OtherMiscellaneousLiabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_OtherMiscellaneousLiabilities' xlink:from='aasb1060_Liabilities' order='29' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_Liabilities' xlink:label='aasb1060_Liabilities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_LiabilitiesOrDisposalGroupsClassifiedAsHeldForSale' xlink:label='aasb1060_LiabilitiesOrDisposalGroupsClassifiedAsHeldForSale' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_LiabilitiesOrDisposalGroupsClassifiedAsHeldForSale' xlink:from='aasb1060_Liabilities' order='30' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfFinancialPositionLiquidity' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_NetAssets' xlink:label='aasb1060_NetAssets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_NetAssets' xlink:from='cm_Thing' order='31' use='optional' />
+   </link:definitionLink>
+
+</link:linkbase>

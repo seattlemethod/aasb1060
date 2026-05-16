@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 3/2/2023 3:57:58 PM -->
+<!-- Public Domain Dedication: https://creativecommons.org/publicdomain/zero/1.0/ -->
+<link:linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:link='http://www.xbrl.org/2003/linkbase' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+   <link:roleRef xlink:type='simple' xlink:href='type-subtype-elr-roles.xsd#StatementOfCashFlowsDirectMethod' roleURI='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod'/>
+ 
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm-arcroles.xsd#has-part' arcroleURI='https://github.com/seattlemethod/universal/cm/arcrole/has-part'/>
+ 
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_NetIncreaseDecreaseInCashAndCashEquivalents' xlink:label='aasb1060_NetIncreaseDecreaseInCashAndCashEquivalents' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInOperatingActivities' xlink:label='aasb1060_CashFlowsFromUsedInOperatingActivities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_CashFlowsFromUsedInOperatingActivities' xlink:from='aasb1060_NetIncreaseDecreaseInCashAndCashEquivalents' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_NetIncreaseDecreaseInCashAndCashEquivalents' xlink:label='aasb1060_NetIncreaseDecreaseInCashAndCashEquivalents' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_NetIncreaseDecreaseInCashAndCashEquivalents' xlink:from='cm_Thing' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInOperatingActivities' xlink:label='aasb1060_CashFlowsFromUsedInOperatingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashReceiptsFromSaleOfGoodsAndRenderingOfServices' xlink:label='aasb1060_CashReceiptsFromSaleOfGoodsAndRenderingOfServices' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_CashReceiptsFromSaleOfGoodsAndRenderingOfServices' xlink:from='aasb1060_CashFlowsFromUsedInOperatingActivities' order='3' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_NetIncreaseDecreaseInCashAndCashEquivalents' xlink:label='aasb1060_NetIncreaseDecreaseInCashAndCashEquivalents' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInInvestingActivities' xlink:label='aasb1060_CashFlowsFromUsedInInvestingActivities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_CashFlowsFromUsedInInvestingActivities' xlink:from='aasb1060_NetIncreaseDecreaseInCashAndCashEquivalents' order='4' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInOperatingActivities' xlink:label='aasb1060_CashFlowsFromUsedInOperatingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashReceiptsFromRoyaltiesFeesCommissionsAndOtherRevenue' xlink:label='aasb1060_CashReceiptsFromRoyaltiesFeesCommissionsAndOtherRevenue' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_CashReceiptsFromRoyaltiesFeesCommissionsAndOtherRevenue' xlink:from='aasb1060_CashFlowsFromUsedInOperatingActivities' order='5' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_NetIncreaseDecreaseInCashAndCashEquivalents' xlink:label='aasb1060_NetIncreaseDecreaseInCashAndCashEquivalents' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInFinancingActivities' xlink:label='aasb1060_CashFlowsFromUsedInFinancingActivities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_CashFlowsFromUsedInFinancingActivities' xlink:from='aasb1060_NetIncreaseDecreaseInCashAndCashEquivalents' order='6' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInOperatingActivities' xlink:label='aasb1060_CashFlowsFromUsedInOperatingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashPaymentsToSuppliersForGoodsAndServices' xlink:label='aasb1060_CashPaymentsToSuppliersForGoodsAndServices' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_CashPaymentsToSuppliersForGoodsAndServices' xlink:from='aasb1060_CashFlowsFromUsedInOperatingActivities' order='7' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_NetIncreaseDecreaseInCashAndCashEquivalents' xlink:label='aasb1060_NetIncreaseDecreaseInCashAndCashEquivalents' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_EffectOfExchangeRateChangesOnCashAndCashEquivalents' xlink:label='aasb1060_EffectOfExchangeRateChangesOnCashAndCashEquivalents' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_EffectOfExchangeRateChangesOnCashAndCashEquivalents' xlink:from='aasb1060_NetIncreaseDecreaseInCashAndCashEquivalents' order='8' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInOperatingActivities' xlink:label='aasb1060_CashFlowsFromUsedInOperatingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashPaymentsToAndOnBehalfOfEmployees' xlink:label='aasb1060_CashPaymentsToAndOnBehalfOfEmployees' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_CashPaymentsToAndOnBehalfOfEmployees' xlink:from='aasb1060_CashFlowsFromUsedInOperatingActivities' order='9' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInOperatingActivities' xlink:label='aasb1060_CashFlowsFromUsedInOperatingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashPaymentsRefundsOfIncomeTax' xlink:label='aasb1060_CashPaymentsRefundsOfIncomeTax' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_CashPaymentsRefundsOfIncomeTax' xlink:from='aasb1060_CashFlowsFromUsedInOperatingActivities' order='10' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInInvestingActivities' xlink:label='aasb1060_CashFlowsFromUsedInInvestingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashPaymentsToAquirePropertyPlantAndEquipment' xlink:label='aasb1060_CashPaymentsToAquirePropertyPlantAndEquipment' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_CashPaymentsToAquirePropertyPlantAndEquipment' xlink:from='aasb1060_CashFlowsFromUsedInInvestingActivities' order='11' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInInvestingActivities' xlink:label='aasb1060_CashFlowsFromUsedInInvestingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashReceiptsFromSalesOfPropertyPlantAndEquipment' xlink:label='aasb1060_CashReceiptsFromSalesOfPropertyPlantAndEquipment' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_CashReceiptsFromSalesOfPropertyPlantAndEquipment' xlink:from='aasb1060_CashFlowsFromUsedInInvestingActivities' order='12' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInInvestingActivities' xlink:label='aasb1060_CashFlowsFromUsedInInvestingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashPaymentsToAquireInvesmentProperty' xlink:label='aasb1060_CashPaymentsToAquireInvesmentProperty' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_CashPaymentsToAquireInvesmentProperty' xlink:from='aasb1060_CashFlowsFromUsedInInvestingActivities' order='13' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInInvestingActivities' xlink:label='aasb1060_CashFlowsFromUsedInInvestingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashReceiptsFromSalesOfInvestmentProperty' xlink:label='aasb1060_CashReceiptsFromSalesOfInvestmentProperty' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_CashReceiptsFromSalesOfInvestmentProperty' xlink:from='aasb1060_CashFlowsFromUsedInInvestingActivities' order='14' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInInvestingActivities' xlink:label='aasb1060_CashFlowsFromUsedInInvestingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashPaymentsToAquireEquityOrDebtInstrumentsFromOtherEntities' xlink:label='aasb1060_CashPaymentsToAquireEquityOrDebtInstrumentsFromOtherEntities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_CashPaymentsToAquireEquityOrDebtInstrumentsFromOtherEntities' xlink:from='aasb1060_CashFlowsFromUsedInInvestingActivities' order='15' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInInvestingActivities' xlink:label='aasb1060_CashFlowsFromUsedInInvestingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashReceiptsFromSalesOfEquityOrDebtInstrumentsOfOtherEntities' xlink:label='aasb1060_CashReceiptsFromSalesOfEquityOrDebtInstrumentsOfOtherEntities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_CashReceiptsFromSalesOfEquityOrDebtInstrumentsOfOtherEntities' xlink:from='aasb1060_CashFlowsFromUsedInInvestingActivities' order='16' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInInvestingActivities' xlink:label='aasb1060_CashFlowsFromUsedInInvestingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashPaymentsFromAdvancesAndLoansMadeToOtherParties' xlink:label='aasb1060_CashPaymentsFromAdvancesAndLoansMadeToOtherParties' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_CashPaymentsFromAdvancesAndLoansMadeToOtherParties' xlink:from='aasb1060_CashFlowsFromUsedInInvestingActivities' order='17' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInInvestingActivities' xlink:label='aasb1060_CashFlowsFromUsedInInvestingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashReceiptsFromRepaymentOfAdvancesAndLoansMadeToOtherParties' xlink:label='aasb1060_CashReceiptsFromRepaymentOfAdvancesAndLoansMadeToOtherParties' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_CashReceiptsFromRepaymentOfAdvancesAndLoansMadeToOtherParties' xlink:from='aasb1060_CashFlowsFromUsedInInvestingActivities' order='18' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInInvestingActivities' xlink:label='aasb1060_CashFlowsFromUsedInInvestingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashPaymentsForFuturesForwardOptionAndSwapContracts' xlink:label='aasb1060_CashPaymentsForFuturesForwardOptionAndSwapContracts' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_CashPaymentsForFuturesForwardOptionAndSwapContracts' xlink:from='aasb1060_CashFlowsFromUsedInInvestingActivities' order='19' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInInvestingActivities' xlink:label='aasb1060_CashFlowsFromUsedInInvestingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashReceiptsFromFuturesForwardOptionAndSwapContracts' xlink:label='aasb1060_CashReceiptsFromFuturesForwardOptionAndSwapContracts' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_CashReceiptsFromFuturesForwardOptionAndSwapContracts' xlink:from='aasb1060_CashFlowsFromUsedInInvestingActivities' order='20' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInFinancingActivities' xlink:label='aasb1060_CashFlowsFromUsedInFinancingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashReceiptsFromProceedsFromIssuingSharesOfOtherEquityInstruments' xlink:label='aasb1060_CashReceiptsFromProceedsFromIssuingSharesOfOtherEquityInstruments' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_CashReceiptsFromProceedsFromIssuingSharesOfOtherEquityInstruments' xlink:from='aasb1060_CashFlowsFromUsedInFinancingActivities' order='21' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInFinancingActivities' xlink:label='aasb1060_CashFlowsFromUsedInFinancingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashPaymentsToOwnersToAquireOrRedeemEntitysShares' xlink:label='aasb1060_CashPaymentsToOwnersToAquireOrRedeemEntitysShares' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_CashPaymentsToOwnersToAquireOrRedeemEntitysShares' xlink:from='aasb1060_CashFlowsFromUsedInFinancingActivities' order='22' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInFinancingActivities' xlink:label='aasb1060_CashFlowsFromUsedInFinancingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashReceiptsFromProceedsFromShorttermOrLongtermBorrowings' xlink:label='aasb1060_CashReceiptsFromProceedsFromShorttermOrLongtermBorrowings' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_CashReceiptsFromProceedsFromShorttermOrLongtermBorrowings' xlink:from='aasb1060_CashFlowsFromUsedInFinancingActivities' order='23' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInFinancingActivities' xlink:label='aasb1060_CashFlowsFromUsedInFinancingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashPaymentsToRepayShorttermOrLongtermBorrowings' xlink:label='aasb1060_CashPaymentsToRepayShorttermOrLongtermBorrowings' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_CashPaymentsToRepayShorttermOrLongtermBorrowings' xlink:from='aasb1060_CashFlowsFromUsedInFinancingActivities' order='24' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfCashFlowsDirectMethod' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashFlowsFromUsedInFinancingActivities' xlink:label='aasb1060_CashFlowsFromUsedInFinancingActivities' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_CashPaymentsByLesseeForLease' xlink:label='aasb1060_CashPaymentsByLesseeForLease' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_CashPaymentsByLesseeForLease' xlink:from='aasb1060_CashFlowsFromUsedInFinancingActivities' order='25' use='optional' />
+   </link:definitionLink>
+
+</link:linkbase>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 3/2/2023 3:57:59 PM -->
+<!-- Public Domain Dedication: https://creativecommons.org/publicdomain/zero/1.0/ -->
+<link:linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:link='http://www.xbrl.org/2003/linkbase' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+   <link:roleRef xlink:type='simple' xlink:href='type-subtype-elr-roles.xsd#StatementOfOtherComprehensiveIncome' roleURI='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfOtherComprehensiveIncome'/>
+ 
+   <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm-arcroles.xsd#has-part' arcroleURI='https://github.com/seattlemethod/universal/cm/arcrole/has-part'/>
+ 
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfOtherComprehensiveIncome' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ComprehensiveIncomeLoss' xlink:label='aasb1060_ComprehensiveIncomeLoss' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_ComprehensiveIncomeLoss' xlink:from='cm_Thing' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfOtherComprehensiveIncome' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ComprehensiveIncomeLoss' xlink:label='aasb1060_ComprehensiveIncomeLoss' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ProfitLoss' xlink:label='aasb1060_ProfitLoss' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_ProfitLoss' xlink:from='aasb1060_ComprehensiveIncomeLoss' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfOtherComprehensiveIncome' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherComprehensiveIncomeLoss' xlink:label='aasb1060_OtherComprehensiveIncomeLoss' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherComprehensiveIncomeLossThatWillNotBeReclassifiedToProfitLoss' xlink:label='aasb1060_OtherComprehensiveIncomeLossThatWillNotBeReclassifiedToProfitLoss' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_OtherComprehensiveIncomeLossThatWillNotBeReclassifiedToProfitLoss' xlink:from='aasb1060_OtherComprehensiveIncomeLoss' order='3' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfOtherComprehensiveIncome' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherComprehensiveIncomeLoss' xlink:label='aasb1060_OtherComprehensiveIncomeLoss' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherComprehensiveIncomeLossThatWillBeReclassifiedToProfitLoss' xlink:label='aasb1060_OtherComprehensiveIncomeLossThatWillBeReclassifiedToProfitLoss' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_OtherComprehensiveIncomeLossThatWillBeReclassifiedToProfitLoss' xlink:from='aasb1060_OtherComprehensiveIncomeLoss' order='4' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfOtherComprehensiveIncome' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherComprehensiveIncomeLossThatWillNotBeReclassifiedToProfitLoss' xlink:label='aasb1060_OtherComprehensiveIncomeLossThatWillNotBeReclassifiedToProfitLoss' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherComprehensiveIncomeLossFromExchangeDifferencesOnTranslationNetOfTax' xlink:label='aasb1060_OtherComprehensiveIncomeLossFromExchangeDifferencesOnTranslationNetOfTax' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_OtherComprehensiveIncomeLossFromExchangeDifferencesOnTranslationNetOfTax' xlink:from='aasb1060_OtherComprehensiveIncomeLossThatWillNotBeReclassifiedToProfitLoss' order='5' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfOtherComprehensiveIncome' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ComprehensiveIncomeLoss' xlink:label='aasb1060_ComprehensiveIncomeLoss' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherComprehensiveIncomeLoss' xlink:label='aasb1060_OtherComprehensiveIncomeLoss' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='https://github.com/seattlemethod/universal/cm/arcrole/has-part' xlink:to='aasb1060_OtherComprehensiveIncomeLoss' xlink:from='aasb1060_ComprehensiveIncomeLoss' order='6' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfOtherComprehensiveIncome' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherComprehensiveIncomeLoss' xlink:label='aasb1060_OtherComprehensiveIncomeLoss' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_ShareOfOtherComprehensiveIncomeLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethodNetOfTax' xlink:label='aasb1060_ShareOfOtherComprehensiveIncomeLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethodNetOfTax' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_ShareOfOtherComprehensiveIncomeLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethodNetOfTax' xlink:from='aasb1060_OtherComprehensiveIncomeLoss' order='7' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfOtherComprehensiveIncome' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherComprehensiveIncomeLossThatWillNotBeReclassifiedToProfitLoss' xlink:label='aasb1060_OtherComprehensiveIncomeLossThatWillNotBeReclassifiedToProfitLoss' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherComprehensiveIncomeLossFromActuarialGainsLossesOnDefinedBenefitPlansNetOfTax' xlink:label='aasb1060_OtherComprehensiveIncomeLossFromActuarialGainsLossesOnDefinedBenefitPlansNetOfTax' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_OtherComprehensiveIncomeLossFromActuarialGainsLossesOnDefinedBenefitPlansNetOfTax' xlink:from='aasb1060_OtherComprehensiveIncomeLossThatWillNotBeReclassifiedToProfitLoss' order='8' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfOtherComprehensiveIncome' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherComprehensiveIncomeLossThatWillNotBeReclassifiedToProfitLoss' xlink:label='aasb1060_OtherComprehensiveIncomeLossThatWillNotBeReclassifiedToProfitLoss' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherComprehensiveIncomeLossFromRevaluationNetOfTax' xlink:label='aasb1060_OtherComprehensiveIncomeLossFromRevaluationNetOfTax' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_OtherComprehensiveIncomeLossFromRevaluationNetOfTax' xlink:from='aasb1060_OtherComprehensiveIncomeLossThatWillNotBeReclassifiedToProfitLoss' order='9' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/aasb1060/type-subtype/role/StatementOfOtherComprehensiveIncome' xlink:title=''>
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherComprehensiveIncomeLossThatWillBeReclassifiedToProfitLoss' xlink:label='aasb1060_OtherComprehensiveIncomeLossThatWillBeReclassifiedToProfitLoss' />
+      <link:loc xlink:type='locator' xlink:href='../base-taxonomy/aasb1060.xsd#aasb1060_OtherComprehensiveIncomeLossFromCashFlowHedgesNetOfTax' xlink:label='aasb1060_OtherComprehensiveIncomeLossFromCashFlowHedgesNetOfTax' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:to='aasb1060_OtherComprehensiveIncomeLossFromCashFlowHedgesNetOfTax' xlink:from='aasb1060_OtherComprehensiveIncomeLossThatWillBeReclassifiedToProfitLoss' order='10' use='optional' />
+   </link:definitionLink>
+
+</link:linkbase>
